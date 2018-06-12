@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        android:scrollbarSize="0dp">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:padding="5dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="#000"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="ELIGIBILITY"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="#000"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="15dp"
+                android:text="\t\tStudents attending the workshop must have a valid ID cards from respective Institutions."
+				/>
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="#000"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="\nPARTICIPATION DETAILS"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="#000"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="15dp"
+                android:text="\t\tIt is a team workshop.
+				\n\t\tA team must consist of 3 members.
+				\n\t\tParticipants from different educational institutions may also form a team."
+				/>
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="#000"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="\nPRE-REQUISITES"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="#000"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="15dp"
+                android:text="\t\tBasic knowledge of Engineering Graphics is a must. 
+				\n\t\tThe workshop as such is structured to suit students with varying knowledge base.
+				\n\t\tCuriosity to learn how industries work is a must though!
+				\n\t\tEach team should bring a basic tool kit which has spanners, multi purpose screw driver etc.,"
+				/>
+				
+				<TextView
+                android:layout_width="match_parent"
+                android:textColor="#000"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="\nCERTIFICATE CRITERION"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="#000"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="15dp"
+                android:text="\t\tCertificates will be provided to participants only if he/she attends all sessions. 
+				\n\t\tIf not, the participant’s registration will be cancelled and he/she will also have to forfeit their registration fee."
+				/>
+				
+				<TextView
+                android:layout_width="match_parent"
+                android:textColor="#000"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="\nREGISTRATION"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="#000"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="15dp"
+                android:text="\t\tThe team leader must register his/her team through registration tab. 
+				\n\t\tPreference while shortlisting the team will be completely on first come first serve basis."
+				/>
+				
+				<TextView
+                android:layout_width="match_parent"
+                android:textColor="#000"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="\nACCOMMODATION"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="#000"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="15dp"
+                android:text="\t\tAccommodation will be given to teams only on their request. 
+				\n\t\tThe teams should specify accommodation requirements while registering online."
+				/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

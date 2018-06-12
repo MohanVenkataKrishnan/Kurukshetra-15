@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:layout_margin="5dp">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_gravity="center_vertical" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="5dp">
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="'Science, like life, feeds on its own decay. New facts burst old rules; then newly divined\nConceptions bind old and new together in a reconciling law'"
+                android:textStyle="italic"
+                android:gravity="center"
+                android:textSize="15dp"
+                android:textColor="#000"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- William James "
+                android:textStyle="bold"
+                android:gravity="right"
+                android:textSize="15dp"
+                android:textColor="#000"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\n     Building a Robot without ROS is like getting information off the internet. Robotics Operating System (ROS) is a set of software libraries and tools that help you build robot applications. It provides a structural communication layer above the host operating systems of a heterogeneous computer cluster. Putting it in a nutshell, ROS is the crux of Robotics.\n\n     Here, in Kurukshetra’15 something incredible is waiting just for you. Don’t miss this invaluable opportunity to make yourself a cut above the many robotics enthusiasts.\n\n"           android:textSize="15dp"
+                android:textColor="#000"
+                />
+
+
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+</LinearLayout>

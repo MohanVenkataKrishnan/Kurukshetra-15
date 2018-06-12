@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+
+    android:layout_height="match_parent"
+    android:background="#fff"
+    >
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        android:scrollbarSize="0dp"
+        android:id="@+id/scrollView"
+        android:layout_gravity="center_vertical" >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="5dp">
+                >
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:textColor="#000"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:textSize="15dp"
+                        android:text="&#9658;"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:textColor="#000"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:textSize="15dp"
+                        android:text="Each team can comprise of a minimum of two members and a maximum of five members."
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:textColor="#000"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:textSize="15dp"
+                        android:text="&#9658;"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:textColor="#000"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:textSize="15dp"
+                        android:text="Participants need not necessarily be from the same institution."
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:textColor="#000"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:textSize="15dp"
+                        android:text="&#9658;"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:textColor="#000"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:textSize="15dp"
+                        android:text="All students must have a valid K! ID to participate.*"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:textColor="#000"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:textSize="15dp"
+                        android:text="&#9658;"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:textColor="#000"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:textSize="15dp"
+                        android:text="Only pre registered teams can participate."
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:textColor="#000"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:textSize="15dp"
+                        android:text="&#9658;"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:textColor="#000"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:textSize="15dp"
+                        android:text="A team can drive only one machine."/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:textColor="#000"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:textSize="15dp"
+                        android:text="&#9658;"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:textColor="#000"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:textSize="15dp"
+                        android:text="All internal mechanisms of the machine must be properly covered."/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:textColor="#000"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:textSize="15dp"
+                        android:text="&#9658;"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:textColor="#000"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:textSize="15dp"
+                        android:text="If the machine is found unsafe to run on the track, the team will be disqualified from the race. The coordinators' decision will be final and binding in this respect."
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:textColor="#000"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:textSize="15dp"
+                        android:text="&#9658;"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:textColor="#000"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:textSize="15dp"
+                        android:text="The teams must adhere to the spirit of healthy competition. The coordinators reserve the right to disqualify any team indulged in misbehavior."
+                        />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textColor="#000"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:textSize="15dp"
+                    android:text="*K! IDs will be provided during registration. In order to obtain a K! ID the college ID card will be required.\n"
+                    />
+
+            </LinearLayout>
+
+
+    </ScrollView>
+</LinearLayout>

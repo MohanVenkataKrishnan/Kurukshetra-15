@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:weightSum="2.5"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0"
+        >
+
+<LinearLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/autogreen"
+
+    />
+
+
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+android:text="\n\t\tFrom time immemorial, Agriculture is the backbone of India. It is the domain which desperately needs the intervention of technology for reaching better heights.
+\n\n\t\tBy this project, we automate the motors in the field by a remote network. The server in the ploughing field receives signals from remote users via Internet and controls the motor accordingly.
+\n\n\t\tAn additional feature of the project is that it incorporates moisture sensors that reflect the need of irrigation during a particular time. In order to match with the current trend, all these features are to be aggregated into an application in smartphones.
+\n\n\t\tWith hopes of boosting the depreciating trends in Agriculture, Autogreen will certainly give a whole new meaning to remote control in the near future."
+
+android:textColor="#111111"
+        android:layout_margin="5dp"
+        />
+
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

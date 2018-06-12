@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        android:scrollbarSize="0dp">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:padding="5dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="#000"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="Eligibility Criterion:"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="#000"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="15dp"
+                android:text="\t\tOnly Students/Professionals having valid IDs from any recognized educational institutions/Companies are allowed to attend this workshop."
+				/>
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="#000"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="\nPre-requisites:"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="#000"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="15dp"
+                android:text="\t\tWe don’t demand anything other than your love for entrepreneurship and the passion to establish a start-up. "
+				/>
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="#000"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="\nType of Participation:"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="#000"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="15dp"
+                android:text="\t\tOnly Individual registration"
+				/>
+				
+				<TextView
+                android:layout_width="match_parent"
+                android:textColor="#000"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="\nCost of Participation::"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="#000"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="15dp"
+                android:text="\t\tRegistration fee for the workshop is Rs. 500 per head and the details of payment will be mailed to the short listed participants."
+				/>
+				
+				<TextView
+                android:layout_width="match_parent"
+                android:textColor="#000"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="\nCertificate Criterion:"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="#000"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="15dp"
+                android:text="\t\tThe certificate will be issued to the participant only if he/she attends all the sessions of the workshop. Missing a session will have their registration cancelled with their money forfeited."
+				/>
+				
+				<TextView
+                android:layout_width="match_parent"
+                android:textColor="#000"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="\nACCOMMODATION:"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="#000"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="15dp"
+                android:text="\t\tAccommodation will be given to teams only on their request. 
+				\n\t\tThe teams should specify accommodation requirements while registering online.\n\n"
+				/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

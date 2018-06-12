@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:layout_margin="5dp">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_gravity="center_vertical" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="5dp">
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="'If you think that the internet has changed your life, think again. The IoT is about to change it all over again!'"
+                android:textStyle="italic"
+                android:gravity="center"
+                android:textSize="15dp"
+                android:textColor="#000"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="-  Brendan O’Brien, Aria systems."
+                android:textStyle="bold"
+                android:gravity="right"
+                android:textSize="15dp"
+                android:textColor="#000"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\n     Can you imagine a computing concept where everyday objects have network connectivity? Is it possible for ordinary devices to communicate among themselves?\n\n     Yes!! And the answer is ‘the Internet of Things’.\n\n     This Network of networks extracts and makes sense of data within machines. An estimated 30 million wireless devices are to be connected to the internet by 2020.\n\n     Interesting! Isn't it?\n\n     One system, connecting to millions of devices and streams data across the world to serve millions of people, that is ‘the Internet of Things’ and it is here right now.\n\n     Come and join us for the next big evolution of computing, ‘the Internet of Things’- much, much bigger than its predecessor, the Internet itself!\n\n"
+
+                android:textSize="15dp"
+                android:textColor="#000"
+                />
+
+
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+</LinearLayout>

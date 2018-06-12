@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:layout_margin="5dp">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:scrollbars="none"
+        android:scrollbarSize="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_gravity="center_vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="5dp">
+                >
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="\t\tThe intoxicating head-to-head internal combustion engine car racing is back and is even bigger this time in Kurukshetra’15. Only the fittest and the fastest can survive.
+\n\n\t\tDo you have what it takes to end up as the winner?
+\n\n\t\tThe event gives a mini F1 racing experience, not only for the participants but also for the spectators. The sounds of the raising accelerator, the brakes and the drifts make it surely worth a watch.
+\n\n\t\tWhat are you waiting for?
+\n\n\t\tStart your engines and gear up to rule the track!\n"
+
+                    android:textSize="15dp"
+                    android:textColor="#000"
+                    />
+
+
+
+
+            </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

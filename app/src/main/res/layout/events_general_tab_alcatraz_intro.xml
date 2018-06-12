@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:layout_margin="5dp">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:scrollbars="none"
+        android:scrollbarSize="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_gravity="center_vertical" >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="5dp">
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="\t\tDo you think you have the knack to escape from the toughest of the prisons using your lateral thinking ability?\n\n\t\tTime for you to put your sixth sense in hyperactive mode!\n\n\t\tAlcatraz is back with a new flavour in Kurukshetra'15.Enter the prison of Alcatraz and solve your way to supremacy."
+
+                    android:gravity="left"
+                    android:textSize="15dp"
+                    android:textColor="#000"
+                    />
+
+            </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

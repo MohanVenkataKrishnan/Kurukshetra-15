@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+android:background="#ffffff"
+    android:layout_height="match_parent">
+>
+
+
+    <LinearLayout
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+
+
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="\n\t\tGreetings from the Hospitality team of Kurukshetra 2015.\n\n\t\tWe are proud in presenting you the ninth edition of Kurukshetra. Since its inception, Kurukshetra has always proven its mettle in voicing technology at an international level. Reaching milestones, one after the other, Kurukshetra has grown in stature, in every possible means. \n\n\t\tHospitality plays an integral role in an event of this calibre. We at Kurukshetra believe in the Sanskrit words, “Athithi Devo Bhava” which literally means Guest is our God. It is our pride to give you a feel at home experience during the days of Kurukshetra’15. Your cozy stay here is our primary target.\n\n\t\tFinally, we give you a strong word, “If you step into CEG, you would feel better about yourself rather than us.”"
+        android:textColor="#111111"
+        android:textSize="17dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#ffffff"
+        android:textSize="20sp"
+
+        android:layout_margin="5dp"
+
+        />
+
+</LinearLayout>
+
+</ScrollView>

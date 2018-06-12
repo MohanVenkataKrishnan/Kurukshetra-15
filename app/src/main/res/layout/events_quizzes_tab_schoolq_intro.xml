@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:layout_margin="5dp">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:scrollbars="none"
+        android:scrollbarSize="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_gravity="center_vertical" >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="5dp">
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="\t\tThe second edition of the K! School Quiz caters to an audience of only school team. So pick your friend in your school who knows just about every random thing you can think of and claim your right to be the winners of this K!15 School quiz."
+
+                    android:gravity="left"
+                    android:textSize="15dp"
+                    android:textColor="#000"
+                    />
+
+            </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

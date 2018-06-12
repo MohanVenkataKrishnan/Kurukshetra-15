@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:layout_margin="5dp">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:scrollbars="none"
+        android:scrollbarSize="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_gravity="center_vertical" >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="5dp">
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="\t\tThe national airline of the country with the largest muslim population  shares its name with that of a Hindu mythological bird. It’s Garuda, of course.\n\n\t\tGordon Moore and Robert Noyce,founders of Intel, were quick to reject,Moore-Noyce as a potential name for their company as it sounded like More Noise\n\n\t\tIf you are looking forward to more of these interesting fundas, make your\n\n\t\tpresence known at the Xceed Biz Quiz where the best quizzers of the nation will battle it out for the honours.\n\n\t\tThe winners will get a direct entry into the K! Biz finals to be held in Chennai as part of kurukshetra 2015.\n\nVenue:  IIM-Bangalore\n\nDate   :  28/12/2014\n"
+
+
+                    android:gravity="left"
+                    android:textSize="15dp"
+                    android:textColor="#000"
+                    />
+
+            </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

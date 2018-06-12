@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+
+    android:layout_height="match_parent"
+    android:background="#fff"
+    >
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        android:scrollbarSize="0dp"
+        android:id="@+id/scrollView"
+        android:layout_gravity="center_vertical" >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="5dp">
+                >
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:textColor="#000"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:textSize="15dp"
+                        android:text="&#9658;"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:textColor="#000"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:textSize="15dp"
+                        android:text="Dala Bull Stock Exchange is an imaginary stock exchange with more than 20 imaginary Indian companies across various sectors."
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:textColor="#000"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:textSize="15dp"
+                        android:text="&#9658;"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:textColor="#000"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:textSize="15dp"
+                        android:text="All stocks are purely imaginary and any resemblance is only a coincidence."
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:textColor="#000"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:textSize="15dp"
+                        android:text="&#9658;"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:textColor="#000"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:textSize="15dp"
+                        android:text="The fluctuations in stock prices have no relation with the real stock market."
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:textColor="#000"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:textSize="15dp"
+                        android:text="&#9658;"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:textColor="#000"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:textSize="15dp"
+                        android:text="An initial capital of 10 lakhs rupees of virtual money will be provided to trade."
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:textColor="#000"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:textSize="15dp"
+                        android:text="&#9658;"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:textColor="#000"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:textSize="15dp"
+                        android:text="Short-sell is intra-day; one needs to buy back before market closes or stocks will be squared off."
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:textColor="#000"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:textSize="15dp"
+                        android:text="&#9658;"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:textColor="#000"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:textSize="15dp"
+                        android:text="Market timing are subject to changes."
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:textColor="#000"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:textSize="15dp"
+                        android:text="&#9658;"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:textColor="#000"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:textSize="15dp"
+                        android:text="Brokerage of 0.5% will be charged on every transaction executed."
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:textColor="#000"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:textSize="15dp"
+                        android:text="&#9658;"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:textColor="#000"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:textSize="15dp"
+                        android:text="At the end of the event, the player with the highest total assets (cash holding and worth of stocks) will be declared the winner."
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:textColor="#000"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:textSize="15dp"
+                        android:text="&#9658;"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:textColor="#000"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:textSize="15dp"
+                        android:text="Any individual found possessing more than one active ID will be disqualified immediately."
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:textColor="#000"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:textSize="15dp"
+                        android:text="&#9658;"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:textColor="#000"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:textSize="15dp"
+                        android:text="It is an individual event and all participants need to have a valid K!id and college ID."
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:textColor="#000"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:textSize="15dp"
+                        android:text="&#9658;"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:textColor="#000"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:textSize="15dp"
+                        android:text="Decision of organisers will be final in case of discrepancies."
+                        />
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textColor="#000"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:textSize="15dp"
+                    android:text="* -  K! IDs will be provided during registration. In order to obtain a K! ID the college ID card will be required.\n\n"
+
+                    />
+
+            </LinearLayout>
+
+
+    </ScrollView>
+</LinearLayout>

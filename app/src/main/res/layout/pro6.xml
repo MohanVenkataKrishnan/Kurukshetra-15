@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:weightSum="2.5"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/roboticscavenger"
+
+                />
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\n\t\tThe main aim of this project is to reduce and eliminate manual scavenging in India and to provide an efficient cleaning system to Indian Railways. Manual scavenging lowers the dignity of people involved.
+\n\n\t\tIt is hazardous to health and there is an acute probability of accidents. These problems faced by the railway scavenging society steered us towards finding a solution for the same, with our acquired knowledge. The bot is designed to move on the railway track and clean the waste (mostly human waste and garbage) using automated mechanisms.
+\n\n\t\tA switch is used to initiate and stop the Bot. A disinfectant is also sprayed along the tracks to get over the stinking and provide a clean environment in the stations. When the bot stops or if there is a malfunction in the bot’s wiring a distress call will be sent as a message to the supervisor. "
+
+                android:textColor="#111111"
+                android:layout_margin="5dp"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

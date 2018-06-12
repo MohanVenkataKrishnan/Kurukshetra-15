@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:layout_margin="5dp">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:scrollbars="none"
+        android:scrollbarSize="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_gravity="center_vertical" >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="5dp">
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="\t\tThe internet unlocks a whole new world, where boundaries cease to exist. Within the flicker of few seconds, messages fly in thin optic fibres half way across the globe.
+\n\n\t\tE-commerce websites open up a whole new portal of business .Social networking websites numb the need for a postal office. Thus the internet has become an essential and invincible super power
+\n\n\t\tLearning to build one such website, empowers you to utilise the potential of the invincible internet to meet your needs."
+
+                    android:gravity="left"
+                    android:textSize="15dp"
+                    android:textColor="#000"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="\nVenue : Kumaraguru College of Technology
+\nDate  : 03/01/2015"
+                    android:gravity="left"
+                    android:textSize="15dp"
+                    android:textColor="#000"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="\n\n\t\tCertificates given by College of Engineering, Guindy, Anna University, Chennai will be issued to all the candidates attending the workshop.
+\n\n\t\tRegistered candidates, be ready to learn web development and do bring your laptop for easy hands on experience.\n"
+
+                    android:gravity="left"
+                    android:textSize="15dp"
+                    android:textColor="#000"
+                    />
+
+            </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

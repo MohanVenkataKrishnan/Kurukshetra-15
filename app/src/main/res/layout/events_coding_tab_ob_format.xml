@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        android:scrollbarSize="0dp">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:padding="5dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="#000"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="First Round (Prelims):"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="#000"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="15dp"
+                android:text="\n\t\tStandard debugging questions in C/C++/Java.\n\t\tPredicting the output from the given code snippets.\n\t\tEvent duration will be 1 hour.\n\t\t15 teams will be selected for the next round."
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="#000"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="\nSecond Round:"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="#000"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="15dp"
+                android:text="\n\t\tThis is a reverse coding round.\n\t\tWriting a program given an executable file.\n\t\tEvent duration will be 1 hour.\n\t\tAround 10 teams will be selected for the finals."
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="#000"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:textSize="15dp"
+                android:text="\nThird Round:"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="#000"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="15dp"
+                android:text="\n\t\tGiven a problem statement and an incorrect program, the contestant must debug it to make it work correctly.\n\n"
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

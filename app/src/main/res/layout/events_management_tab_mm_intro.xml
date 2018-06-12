@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:layout_margin="5dp">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:scrollbars="none"
+        android:scrollbarSize="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_gravity="center_vertical" >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="5dp">
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="'Marketing is a contest for people's attention'"
+                    android:textStyle="italic"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textColor="#000"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="-SETH GODIN "
+                    android:textStyle="bold"
+                    android:gravity="right"
+                    android:textSize="15dp"
+                    android:textColor="#000"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="\n\t\t'Marketing is the Life of Trade'\n\n\t\tK!15 presents this unique Marketing Event, testing the acumen of the contestants when they are given a challenge to handle and augment the market share of a product or a service, to crusade for a cause while facing a strong competition, strict regulations and a stringent budget."
+                    android:textSize="15dp"
+                    android:textColor="#000"
+                    />
+
+            </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:layout_margin="5dp">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_gravity="center_vertical" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="5dp"><![CDATA[
+            >
+
+
+
+            ]]>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\n     Protecting critical power system assets from industrial systems, through distribution, generation and up to the highest transmission voltages is a vital part of power systems operations. Short-circuits, overloads and other faults are to be cleared in tripping times as fast as a sub-cycle! This innovation by Alstom is one of the ground-breaking technologies solving one of the most intricate problems today!\n\n     Handled by the pioneers in the field of protection relays, we promise to equip you with the best of knowledge in one of the most important domains of Electrical engineeringProtecting critical power system assets from industrial systems, through distribution, generation and up to the highest transmission voltages is a vital part of power systems operations. Short-circuits, overloads and other faults are to be cleared in tripping times as fast as a sub-cycle! This innovation by Alstom is one of the ground-breaking technologies solving one of the most intricate problems today!  Handled by the pioneers in the field of protection relays, we promise to equip you with the best of knowledge in one of the most important domains of Electrical engineering\n\n"
+
+
+                android:textSize="15dp"
+                android:textColor="#000"
+                />
+
+
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+</LinearLayout>

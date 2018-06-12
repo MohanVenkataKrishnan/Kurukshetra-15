@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        android:scrollbarSize="0dp">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:padding="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="#000"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="Arena Specifications:"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="#000"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="15dp"
+                android:text="\tThe elements of the arena are as follows:
+\n\tThese are the images on the 2D plane(the floor):
+\n\t\tELEMENTS ON THE ARENA\t\t\t-\t\t\tCOLOR
+\n\n\t\tCraters\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t-\t\t\tBlack
+\n\t\tWater bodies\t\t\t\t\t\t\t\t\t\t\t\t\t-\t\t\tBlue
+\n\t\tDr.Frankenstein\t\t\t\t\t\t\t\t\t\t\t\-\t\t\tRed
+\n\t\tMars Surface\t\t\t\t\t\t\t\t\t\t\t\t\t-\t\t\tWhite
+\n\tThe camera to be used in this event is Logitech HD 270. For full camera specification, please visit"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="openpage"
+                android:id="@+id/kom_spec_camera"
+                android:background="#ffffff"
+                android:layout_gravity="center"
+                android:textColor="#ff606aff"
+                android:text="http://www.logitech.com/en-us/product/hd-webcam-c270"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="#000"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="15dp"
+                android:text="\t\tThe camera will be placed in a location such that it covers the entire arena. Live-feed from the camera will be provided to the contestant’s laptop.
+\n\t\tDetailed arena specifications will be uploaded soon.
+\n\t\tGame field dimensions are subject to a tolerance of ±5 %. No tolerances will be given in case of maximum bot dimensions.
+\n\t\tThe authenticity of any action not provided in this problem statement shall be subject to discretion of Coordinators.
+\n\nBot Specifications:
+\n\t\tThe robot should be of  25 cm x 10 cm x20 cm in dimensions which will be checked before the event and violation of which will lead to the disqualification of the bot.
+\n\t\tThe potential difference between any two points in the bot should not exceed 12V.
+\n\t\tThe power supply can be on-board or off-board. In case of an external power supply, ensure that the wire remains slack throughout.
+\n\t\tThe camera will be placed in such a way that it covers the entire arena. And live feed from the camera will be given to the contestant's laptop.
+\n\t\tOnboard cameras and sensors of any kind are prohibited.
+\n\t\tThe robot is allowed to communicate with a computer outside the arena- either wired or wireless. For wired communication, the wire must be slack at every instant of the trial.
+\n\t\tThe team is required to bring their laptop with the necessary software installed.
+\n\t\tOnly Image Processing method is to be followed."
+                />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

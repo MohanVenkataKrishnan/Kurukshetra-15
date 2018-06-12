@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:layout_margin="5dp">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:scrollbars="none"
+        android:scrollbarSize="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_gravity="center_vertical" >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="5dp">
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="'The idol of to-day pushes the hero of yesterday out of our recollection, and will, in turn, be supplanted by his successor of to-morrow.'"
+                    android:textStyle="italic"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textColor="#000"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="-Washington Irving "
+                    android:textStyle="bold"
+                    android:gravity="right"
+                    android:textSize="15dp"
+                    android:textColor="#000"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="\n\t\tIt’s not how you turn the table by your arms; it’s how you turn the table by your words .The words you speak may be building bricks of your success path or that of your downfall. Those who articulated with charisma have won more wars than mighty swords.\n\n\t\tIt is vital how you project yourself, not by weapon, not by your academic excellence but only by how you deliver.\n\n\t\tGandhi, Swami Vivekananda, Nelson Mandela, Narendra Modi, Barack Obama all changed the world by their words.\n\n\t\tIf you believe that you can change the course of events by your words then this is the right place. K! IDOL is the war of words!!\n\n"
+
+                    android:textSize="15dp"
+                    android:textColor="#000"
+                    />
+
+            </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

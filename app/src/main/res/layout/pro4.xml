@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:weightSum="2.5"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/oraa"
+
+                />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:text="\nORAA (On Road Accident Anticipation)"
+                android:textColor="#111111"
+                android:layout_margin="5dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\t\tORAA is used to predict the possibility of an accident and intimate the user regarding the danger.
+\n\n\t\tThe Model uses Ultrasonic sensor (HC-SR04) interfaced with arduino. The sensor detects the vehicles in the specified range and alerts the user only about the exceedingly speeding vehicles. The user is alerted both using virtual display and audio module. This majorly prevents accidents in highways especially when moving vehicles hit stationary vehicles in the dark.
+\n\n\t\tThe model needs no Inter -vehicular communication which means whether or not the other vehicles on the road have this system on them, the system will work. This makes it advantageous over Cruise Control (existing system)."
+
+                android:textColor="#111111"
+                android:layout_margin="5dp"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

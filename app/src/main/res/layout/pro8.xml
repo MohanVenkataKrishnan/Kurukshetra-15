@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:weightSum="2.5"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0"
+        >
+
+        <LinearLayout
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/three_d_printing"
+
+                />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\n\t\tOff late there has been a lot of talk going on about 3d printers and 3d printing and about how they can change the future. It has also been rated in the top 10 disruptive technologies. 3d printing is a layer by layer manufacturing technique which runs on information provided by a CAD (Computer Aided Drawing) file. It builds objects by adding material only where it is required and hence it has also been termed as Additive manufacturing. There are many additive manufacturing techniques out of which FDM is chosen (Fused Deposition Modeling).
+ \n\nWhy FDM?
+\n\n\t\t•\t\tExpiry of patent
+\n\t\t•\t\tCost of production
+\n\t\t•\t\tEase of understanding
+\n\n\t\tThere are almost a 100 companies around the world and around 3 in India who have started manufacturing 3d printers using the FDM technique. Most of these machines are very expensive that runs into the range of a few lakhs. The main aim of this project is to make a low cost 3d printer that is affordable for all and at the same time does not compromise on the build volume and quality. This project is sure to meet all expectations and make a suitable product that can compete with others in an open market. "
+                android:textColor="#111111"
+                android:layout_margin="5dp"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

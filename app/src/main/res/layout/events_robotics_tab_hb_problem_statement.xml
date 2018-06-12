@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:layout_margin="5dp">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:scrollbars="none"
+        android:scrollbarSize="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_gravity="center_vertical" >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="5dp">
+                >
+
+                 <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="\t\tHere is your mission. You are the last person to save your regime from a defeat. All your comrades have been demoted. Now it’s your turn. You have a warplane but the pilot seat has only flying controls. Your co-pilot is missing! He is supposed to be the bomber expert. There is some malfunction in the radars, so your aiming will be poor. It takes six weeks to read the manual. So you are going to take a leap of faith by transmuting your plane into a semi-autonomous mode. Yes your plane is your friend. It does the job of a predator by aiming the target and dropping bombs.
+\n\n\t\tRemember, you don’t have galore bombs in your flying machine and you must overpower before dusk. So you must be in hypersonic speed, using your armoury wisely to complete your milestone and to avert yourself from destruction!!
+"
+
+                    android:textSize="15dp"
+                    android:textColor="#000"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textColor="#000"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:text="Round 1:Prove your allegiance"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="\t\t Revamp your plane (bot) into a Hawker mode (semi-autonomous mode). Show you’re designing skills to yield brownie points.
+"
+
+                    android:textSize="15dp"
+                    android:textColor="#000"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textColor="#000"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:text="Round 2:"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="\t\tWith your Powerful hawker (semi-autonomous bot) fly over the rival’s land and drop exactly one bomb (ball) to complete the pursuit.
+"
+
+                    android:textSize="15dp"
+                    android:textColor="#000"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textColor="#000"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:text="Round 3:"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="\t\tLooks like some of the mountains are already captured by our land troops. Avoid attacking them and smash the remaining (Coding skills)
+"
+
+                    android:textSize="15dp"
+                    android:textColor="#000"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textColor="#000"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:text="\nTask:"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="\t\tThe bot will be given balls and its task is to drop a ball autonomously as it move through the goal posts while avoiding the obstacles.
+\n\n\t\tThe robot has to be semi-autonomously controlled, with the locomotion being controlled by the participant through Gesture control using an accelerometer. The participants may choose to participate with normal switch-button manual control for half the positive points.
+\n\n\t\tThe robot will also have to implement automatic goal detection to detect the scoring zone and drop the balls independently.
+\n"
+
+                    android:textSize="15dp"
+                    android:textColor="#000"
+                    />
+
+
+
+
+            </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

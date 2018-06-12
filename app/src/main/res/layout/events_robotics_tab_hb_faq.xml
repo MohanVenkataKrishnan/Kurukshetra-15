@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:layout_margin="5dp">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:scrollbars="none"
+        android:scrollbarSize="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_gravity="center_vertical" >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="5dp">
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textIsSelectable="true"
+                    android:text="1. SHOULD THE BOT FLY?
+\n\t\tAbsolutely not! It’s just a Manual bot in a Semi-Autonomous mode. The movement of the bot can be controlled by you, but detecting goalposts and Dropping Ball must be strictly AUTONOMOUS.
+\n\n2. WHERE DOES GOALPOST EXIST?
+\n\t\tThe goalposts are indicated by two parallel cardboards painted black on either side of the track. A pit dug in the ground is present between the parallel boards to collect a dropped ball. The pit dimensions will be updated soon.
+\n\n3. WHEN WILL THE BALLS BE GIVEN TO THE BOT?
+\n\t\tYou will be given the balls at the beginning of your turn in the event.
+\n\n4. CAN THE BOT WAIT INSIDE THE GOALPOST TO DROP BALL??
+\n\t\tNo, the bot has to move fast as well as drop a ball autonomously.
+\n\n5. ARE SPEED ADJUSTMENT TECHNIQUES ALLOWED IN THE BOT?
+\n\t\tYes, they are allowed.
+\n\n6. ARE THERE ANY USEFUL LINKS WHICH WE COULD REFER TO?
+\n\n\t\tThe following links may help you:"
+
+                    android:gravity="left"
+                    android:textSize="15dp"
+                    android:textColor="#000"
+                    />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/hb_faq_link1"
+                    android:layout_gravity="left"
+                    android:background="#00000000"
+                    android:onClick="openpage"
+                    android:textColor="#ff6d6cff"
+                    android:text="http://www.rakeshmondal.info/IR-Infrared-Sensor-Interface-lcd-Arduino-uno"/>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:id="@+id/hb_faq_link2"
+                    android:onClick="openpage"
+                    android:background="#00000000"
+                    android:textColor="#ff6d6cff"
+                    android:text="http://arduino.cc/en/Tutorial/Ping?from=Tutorial.UltrasoundSensor"/>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:background="#00000000"
+                    android:id="@+id/hb_faq_link3"
+                    android:onClick="openpage"
+                    android:textColor="#ff6d6cff"
+                    android:text="http://arduino.cc/en/Tutorial/ADXL3xx"/>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:id="@+id/hb_faq_link4"
+                    android:onClick="openpage"
+                    android:background="#00000000"
+                    android:textColor="#ff6d6cff"
+                    android:text="http://spot.ksac.in/2013/10/03/apexpredator-ball-pick-place-bot/"/>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:background="#00000000"
+                    android:id="@+id/hb_faq_link5"
+                    android:onClick="openpage"
+                    android:textColor="#ff6d6cff"
+                    android:text="http://www.youtube.com/watch?v=2N2rfo7h23c"/>
+
+
+            </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

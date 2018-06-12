@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:layout_margin="5dp">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:scrollbars="none"
+        android:scrollbarSize="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_gravity="center_vertical" >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="5dp">
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="\t\tThe Judgement day is approaching and you are eager to help Noah in his mission to save life from a massive flood.
+                    \n\n\t\tBut first, you have to prove your dedication by passing the test of Noah (Round 1).
+                    \n\n\t\tAs the time is running short, you must learn to make haste (Round 2).
+                    \n\n\t\tGather your people and animal race to accommodate them into the Noah’s Ark (Round 3).
+                    \n\n\t\tWith the flood hitting the land, the whole World gets crumbled. Everything is lost except the Ark.
+                    \n\n\t\tLater, as the days pass, God’s wrath subsides and the flood is getting drained, making the Ark to rest on Mount Ararat.
+                    \n\n\t\tWith a sight of the land, comes a great destiny.
+                    \n\n\t\tThe time has arrived to fight for the new World.
+                    \n\n\t\tTo charm people, find the relics of the lost World (Round 4) but that wouldn’t stop your rivals.
+                    \n\n\t\tFight your rivals for the supremacy to claim the (land) Mount Ararat (Round 5).
+                    \n\n\t\tProve your valour and let your name be etched in the hearts of people forever!"
+
+
+                    android:textSize="15dp"
+                    android:textColor="#000"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="\nRound 1: The Test of Greatness"
+                    android:textSize="15dp"
+                    android:textColor="#000"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="\t\tTeams will have to submit a Team Description Paper (TDP) prior to the start of the event. You will have to present your team details and answer a questionnaire regarding the design of your bots. This round will help judges to give scores for the design. A unique design would win you a good score."
+                    android:textSize="15dp"
+                    android:textColor="#000"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="\nRound 2:  Haste is No Waste"
+                    android:textSize="15dp"
+                    android:textColor="#000"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="\t\tThe bots should prove their proficiency by travelling in land and water back to back using the respective bots. Two trials will be given in this round and there will be 5-10 minutes between each."
+                    android:textSize="15dp"
+                    android:textColor="#000"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="\nRound 3:  Give a Hand"
+                    android:textSize="15dp"
+                    android:textColor="#000"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="t\tThe bot should pick objects which are kept in the land and place it at a point where water bot can pick them. The water bot must pick the objects and place them at the target after drifting through the water. The objects are ferromagnetic and hence can be attracted by an electromagnet. Score is time dependent and depending upon the scores of round 2 and 3, 12 teams will be selected and taken to the next round. After this round, modification of bots is allowed."
+                    android:textSize="15dp"
+                    android:textColor="#000"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="\nRound 4: Hunger for Power"
+                    android:textSize="15dp"
+                    android:textColor="#000"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="\t\tThis round will have 6 matches with 2 teams duelling at a time. In a match, the two rival water bots should pick as many submerged or floating relics (a ferromagnetic structure) as possible from a common pool and place at the targets provided. Relics will be made in such a way that it can be attracted by an electromagnet. This will leave 6 players remaining."
+                    android:textSize="15dp"
+                    android:textColor="#000"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="\nRound 5: The Final Clash"
+                    android:textSize="15dp"
+                    android:textColor="#000"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="\t\tA Surprise round with trio clashes!\n"
+                    android:textSize="15dp"
+                    android:textColor="#000"
+                    />
+            </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>
+
+

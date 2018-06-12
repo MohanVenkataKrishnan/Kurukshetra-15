@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:layout_margin="5dp">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:scrollbars="none"
+        android:scrollbarSize="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_gravity="center_vertical" >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="5dp">
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="General Rules:"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="15dp"
+                    android:textColor="#000"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="\t\tEach team can consist of a maximum of 4 members.
+\n\n\t\tEach team should have unique participants i.e. no two teams can have even a single participant common.
+\n\n\t\tThe team members can be from different institutions.
+\n\n\t\tAll team members must have a valid K! ID.
+\n\n\t\tSchool students are also welcome for this event."
+
+                    android:gravity="left"
+                    android:textSize="15dp"
+                    android:textColor="#000"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="\nGame Rules:"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="15dp"
+                    android:textColor="#000"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="\t\tThe bot will be given certain number of balls and it must start from the initial position, drop the balls into the destination area by avoiding obstacles and turns.
+\n\n\t\tIf the bot falls down from the track, the student is allowed to touch the bot to put it back into the arena.  Only #3 physical touches allowed during a run.
+\n\n\t\tThe bot shouldn’t stop or move slowly in the goal zone.
+\n\n\t\tMaximum duration of the event is 6 minutes.
+\n\n\t\tIf the participant feels that he/she were sloppy in the beginning, or couldn’t score expected points he/she can opt for restart. Only one restart is allowed. While restarting, the points scored are cleared and counted from beginning.
+\n\n\t\tThe participant can’t opt for restart if their time exceeds 3 minutes.
+\n\n\t\tSensor (IR or Ultrasonic) should be used for goal detection and the participant must specify the type of sensor used before starting the event."
+
+                    android:gravity="left"
+                    android:textSize="15dp"
+                    android:textColor="#000"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="\nBot specification:"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="15dp"
+                    android:textColor="#000"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="\t\tThe bot dimension must not exceed 25*25*25 cm3 .
+\n\n\t\tThe bot shouldn’t have any ready-made parts and it must be designed by the students themselves or the team will be disqualified.
+\n\n\t\tThe potential difference between any two points mustn’t exceed 12 volts
+\n\n\t\tOnly onboard power supply should be used.
+\n\n\t\tThe length of wire must be at least 2m.
+\n\n\t\tWireless connection is also permitted
+\n\n\t\tFor this event the bot must include a holding (Basket) and dropping mechanism (for balls) and sensors (for detecting goal zone).
+\n\n\t\tMake sure the bot doesn’t damage the arena.\n"
+                    android:gravity="left"
+                    android:textSize="15dp"
+                    android:textColor="#000"
+                    />
+
+            </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

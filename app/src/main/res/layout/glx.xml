@@ -1,0 +1,636 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffffff"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+
+    >
+
+    <android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#43a047"
+        android:minHeight="?attr/actionBarSize"
+        app:popupTheme="@style/WorkAppTheme"
+        app:theme="@style/ToolbarCustomIconColor"
+
+        />
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+    <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical"
+
+            tools:context=".MainActivity"
+            >
+
+
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:orientation="vertical"
+
+
+            >
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/card_view1"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+
+                >
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:background="#eceff1"
+                    android:orientation="horizontal">
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+
+                            android:orientation="horizontal"
+
+                            android:gravity="start"
+                            >
+                            <RelativeLayout
+                                android:layout_width="96dp"
+                                android:layout_height="96dp"
+                                android:gravity="start">
+
+                                <ImageView
+
+                                    android:layout_width="100dp"
+                                    android:layout_height="100dp"
+                                    android:src="@drawable/kb"
+                                    android:scaleType="centerCrop"
+                                    />
+                            </RelativeLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:gravity="end"
+                                android:paddingRight="10dp"
+                                >
+
+                                <TextView
+                                    android:textColor="#ff34b940"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:paddingLeft="10dp"
+                                    android:paddingTop="24dp"
+                                    android:textSize="20sp"
+                                    android:layout_gravity="left"
+                                    android:text="Kiran Bedi"
+
+                                    />
+                                <TextView
+
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:paddingLeft="10dp"
+                                    android:textColor="#81c784"
+                                    android:textSize="15sp"
+                                    android:text="Socialist and First Woman IPS"
+                                    />
+                            </LinearLayout>
+                        </LinearLayout>
+
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="10dp"
+                            android:textColor="#ff909090"
+                            android:textSize="15sp"
+                            android:paddingTop="15dp"
+                            android:textStyle="bold"
+                            android:id="@+id/tv1"
+                            android:visibility="gone"
+                            android:text="“What is the value of education which does not inculcate passion and fearlessness for setting right what is wrong?”
+                            \n\t\t\t\t\t\t\t\t\t\t-Dr. Kiran Bedi"
+                        />
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="10dp"
+                            android:textColor="#ff909090"
+                            android:textSize="15sp"
+                            android:paddingTop="15dp"
+                            android:id="@+id/tv1_2"
+                            android:visibility="gone"
+                            android:text="\t\tDr. Bedi joined the police service in 1972 and became the first woman officer in the IPS. She is also a passionate social activist, and founded two NGOs in India: the Navjyoti India Foundation and the India Vision Foundation.
+\n\t\tHer many honours and awards include the United Nations Medal, President’s Gallantry Award and Ramon Magsaysay Award for Government service.
+\n\t\tWe have read about this multi-faceted personality in awe from our textbooks. Now you can listen to Dr. Bedi live in CEG who will address the audience on her journey to become the first woman officer in the Indian Police Service and the importance for youth the muster up courage to pursue their dreams and fight for what they believe in. "
+                            />
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+
+
+
+
+
+
+            <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical"
+
+
+            >
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/card_view2"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+
+
+                >
+
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:background="#eceff1"
+                        android:orientation="horizontal">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="96dp"
+
+                                android:orientation="horizontal"
+
+                                android:gravity="end"
+                                >
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical"
+                                    android:gravity="end|center"
+                                    android:paddingRight="10dp"
+                                    >
+
+                                    <TextView
+                                        android:textColor="#ff34b940"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:paddingTop="15dp"
+                                        android:paddingLeft="10dp"
+                                        android:textSize="20sp"
+                                        android:text="\tArunachalam\nMuruganantham"
+
+                                        />
+                                    <TextView
+
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:paddingLeft="10dp"
+                                        android:textColor="#81c784"
+                                        android:textSize="15sp"
+                                        android:text="Social entrepreneur"
+                                        />
+                                </LinearLayout>
+                                <RelativeLayout
+                                    android:layout_width="96dp"
+                                    android:layout_height="match_parent"
+                                    android:gravity="end">
+
+                                    <ImageView
+                                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:scaleType="centerCrop"
+                                        android:src="@drawable/mur"
+
+                                        />
+                                </RelativeLayout>
+                            </LinearLayout>
+                            <TextView
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="10dp"
+                                android:textColor="#ff909090"
+                                android:textSize="15sp"
+                                android:paddingTop="15dp"
+android:visibility="gone"
+                                android:id="@+id/tv2"
+                                android:text="\t\tMr. Arunachalam Muruganantham is a social entrepreneur from rural Coimbatore. He is the inventor of a low-cost sanitary pad making machine. Mr. Muruganantham's invention is widely praised as a key step in changing women's lives in India.
+\n\n\t\tHis mini-machines, which can manufacture sanitary pads for less than a third of the cost of commercial pads, have been installed in 23 of the 29 states of India. He is currently planning to expand the production of these machines to 106 nations.  In 2014, TIME magazine placed him in its list of '100 Most Influential People in the World' - Pioneers.
+\n\n\t\tMr. A. Muruganantham will share his experiences on the social barriers he had to face to pursue his invention, and how it has transformed numerous lives around the world.
+                            "
+                            />
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+
+        </LinearLayout>
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical"
+
+
+            >
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/card_view3"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+
+
+                >
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:background="#eceff1"
+                    android:orientation="horizontal">
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        +<LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+
+                            android:orientation="horizontal"
+
+                            android:gravity="start"
+                            >
+                            <RelativeLayout
+                                android:layout_width="96dp"
+                                android:layout_height="96dp"
+                                android:gravity="start">
+
+                                <ImageView
+                                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                                    android:layout_width="96dp"
+                                    android:layout_marginRight="5dp"
+                                    android:layout_height="96dp"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/somasegar_icon"
+
+                                    />
+                            </RelativeLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:gravity="end"
+                                android:paddingRight="10dp"
+                                >
+
+                                <TextView
+                                    android:textColor="#ff34b940"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:paddingLeft="10dp"
+                                    android:paddingTop="28dp"
+                                    android:textSize="20sp"
+                                    android:layout_gravity="left"
+                                    android:text="S.Somasegar"
+
+                                    />
+                                <TextView
+
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:paddingLeft="10dp"
+                                    android:textColor="#81c784"
+                                    android:textSize="15sp"
+                                    android:text="Corporate Vice President, Microsoft"
+                                    />
+                            </LinearLayout>
+                        </LinearLayout>
+
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="10dp"
+                            android:textColor="#ff909090"
+                            android:textSize="15sp"
+                            android:paddingTop="15dp"
+                            android:id="@+id/tv3"
+                            android:visibility="gone"
+                            android:text="\t\tJoin S. Somasegar, Corporate Vice -President of the Developer Division at Microsoft, as he shares his personal journey at Microsoft and talks a bit about the strategic evolution of the company from a boxed software to a Services and Devices Company and now to the new paradigm of the Cloud-First Mobile-First world.
+\n\n\t\tSomasegar is currently responsible for engineering of developer tools and services, programming languages and runtimes designed for a broad base of software developers and development teams.  Somasegar also owns MSDN property that enables a deep connection with the developer audience. Additionally, he is the executive sponsor for the Research and Development Centres at India, China, Israel and New England for all of Microsoft."
+                            />
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+
+
+
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+
+                        android:orientation="vertical"
+
+
+                        >
+
+                        <android.support.v7.widget.CardView
+                            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                            android:id="@+id/card_view4"
+                            android:layout_gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+
+
+                            >
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+
+                                android:background="#eceff1"
+                                android:orientation="horizontal">
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+
+                                        android:orientation="horizontal"
+
+                                        android:gravity="end"
+                                        >
+                                        <LinearLayout
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:orientation="vertical"
+                                            android:gravity="end"
+                                            android:paddingRight="10dp"
+                                            >
+
+                                            <TextView
+                                                android:textColor="#ff34b940"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:paddingLeft="10dp"
+                                                android:paddingTop="28dp"
+                                                android:textSize="20sp"
+                                                android:text="Ashok Krish"
+
+                                                />
+                                            <TextView
+
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:paddingLeft="10dp"
+                                                android:textColor="#81c784"
+                                                android:textSize="15sp"
+                                                android:text="Head, TCS Innovation Labs"
+                                                />
+                                        </LinearLayout>
+                                        <RelativeLayout
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:gravity="end">
+
+                                            <ImageView
+                                                xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                android:layout_width="96dp"
+                                                android:layout_marginRight="5dp"
+                                                android:layout_height="96dp"
+                                                android:scaleType="centerCrop"
+                                                android:src="@drawable/ask"
+
+                                                />
+                                        </RelativeLayout>
+                                    </LinearLayout>
+                                    <TextView
+
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:paddingLeft="10dp"
+                                        android:textColor="#ff909090"
+                                        android:textSize="15sp"
+                                        android:paddingTop="15dp"
+                                        android:visibility="gone"
+                                        android:id="@+id/tv4"
+                                        android:text="\t\tFrom being a techie, a passionate musician, a podcaster whose album titled ‘Jungle bandy’ got a mention at No. 8 in Top 10 iTunes World Music Chart, a Radio Jockey with Chennai Live 104.8, a columnist for Indian Express where he writes a weekly column called “Globalized Gapsaa”, and a blogger who writes a blog titled ‘Doing Jalsa and Showing Jilpa’, Ashok Krish is a multi-talented Chennaiite who never fails to make a mark in any domain he steps into.
+\n\n\t\tMr. Ashok Krish currently heads the TCS Innovation Labs. He is a passionate open source enthusiast and has played a vital role in architecting TCS' own workplace transformation technologies for its 300,000 employees.
+\n\n\t\tListen to what Mr. Ashok Krish has to say about breaking the “software job” stereotype, as he explains how living a vibrant life has led him to where he is today."
+                                        />
+                                </LinearLayout>
+
+
+
+                            </LinearLayout>
+
+                        </android.support.v7.widget.CardView>
+
+
+
+                    </LinearLayout>
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical"
+
+
+            >
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/card_view5"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+
+
+                >
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:background="#eceff1"
+                    android:orientation="horizontal">
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+
+                            android:orientation="horizontal"
+
+                            android:gravity="start"
+                            >
+                            <RelativeLayout
+                                android:layout_width="96dp"
+                                android:layout_height="96dp"
+                                android:gravity="start">
+
+                                <ImageView
+                                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                                    android:layout_width="96dp"
+                                    android:layout_marginRight="5dp"
+                                    android:scaleType="centerCrop"
+                                    android:layout_height="96dp"
+                                    android:src="@drawable/vpon"
+
+                                    />
+                            </RelativeLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:gravity="end"
+                                android:paddingRight="10dp"
+                                >
+
+                                <TextView
+                                    android:textColor="#ff34b940"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:paddingLeft="10dp"
+
+                                    android:paddingTop="28dp"
+                                    android:textSize="20sp"
+                                    android:layout_gravity="left"
+                                    android:text="V Ponraj"
+
+                                    />
+                                <TextView
+
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:paddingLeft="10dp"
+                                    android:textColor="#81c784"
+                                    android:textSize="15sp"
+                                    android:text="Scientist, DRDO"
+                                    />
+                            </LinearLayout>
+                        </LinearLayout>
+
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="10dp"
+                            android:textColor="#ff909090"
+                            android:textSize="15sp"
+                            android:paddingTop="15dp"
+                            android:id="@+id/tv5"
+                            android:visibility="gone"
+                            android:text="\t\tMr. V. Ponraj is a Scientist - F in the Aeronautical Development Agency in the Government’s Ministry of Defence and is also part of the Technology Interface Group in Dr. Abdul Kalam's office. He has over 25 years of experience in various fields including Aerospace Design and Development, and Virtual Reality and Simulation. Mr. Ponraj is Dr. Kalam’s scientific advisor. Presently he is working with Dr. Abdul Kalam on Vision 2020.
+\n\n\t\tIn the field of education, Mr. V. Ponraj spearheaded the Virtual University initiatives in the country. He and Dr. Kalam wrote the book “A Manifesto For Change”.
+\n\n\t\tKurukshetra brings to you a motivational talk by Mr. V. Ponraj, who will be sharing with us his experiences and some key elements he believes are vital for personal success. "
+                            />
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+</ScrollView>
+
+
+</LinearLayout>

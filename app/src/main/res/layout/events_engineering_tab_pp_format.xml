@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        android:scrollbarSize="0dp">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:padding="5dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="#000"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="STAGE I: ONLINE ABSTRACT SUBMISSION"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="#000"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="15dp"
+                android:text="\tThe Abstract must be mailed to paperpresentation@kurukshetra.org.in with ‘subject’ specifying the topic and stream of the paper.
+\tThe Abstract of the paper must be submitted on or before December 20.
+\tOnly those participants, whose abstract comply with the rules specified for this event, will receive an acknowledgement through mail."
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="#000"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="\nSTAGE II: ONLINE PAPER SUBMISSION"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="#000"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="15dp"
+                android:text="\tParticipants, who have received the acknowledgement for their abstracts, must send their full paper as soon as possible.
+\tThe participants must submit a document attested by their guide/mentor, clearly stating that the concerned participants have done original work on the submitted paper. It must also bear the seal of the Professor/the Head of the Department.
+\tThe last date for submission  of the fully completed paper will be updated soon.\n"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

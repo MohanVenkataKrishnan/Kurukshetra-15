@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:weightSum="2.5"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0"
+        >
+
+        <LinearLayout
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/digital_relay"
+
+                />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\n\t\tThis project is attempted to design and fabricate an over current relay using arduino microcontroller in the power system. The primary motive is to transmit the data to the operator console through ZigBee technology as per IEEE 802.15.4 standard.
+\n\n\t\tAn Optical fibre is normally employed to send the relay trip signal to relay driver circuit. This project reduces the cost by replacing optical fibre with ZigBee protocol. The reason for using ZigBee is low power consumption with transmission speed of 250 kb/sec.
+\n\n\t\tThe network capacity of the ZigBee is 64000 nodes which is very high when compared to other wireless devices like Bluetooth and Wi-fi. The DSPs (Digital Signal Processors) used in the numerical overcurrent relay are replaced by a microcontroller which is more cost effective.\n\n"
+                android:textColor="#111111"
+                android:layout_margin="5dp"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

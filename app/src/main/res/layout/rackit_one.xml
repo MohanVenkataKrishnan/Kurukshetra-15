@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:layout_margin="5dp">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_gravity="center_vertical" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="5dp">
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="'We can’t solve problems by using the same kind of thinking we used when we created them'"
+                android:textStyle="italic"
+                android:gravity="center"
+                android:textSize="15dp"
+                android:textColor="#000"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Albert Einstein  "
+                android:textStyle="bold"
+                android:gravity="right"
+                android:textSize="15dp"
+                android:textColor="#000"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\n     All zeroes and ones make your paper zero?\n     Seeking for a good score in competitive exams?\n\n     Even a simple multiplication causes you multiple troubles?\n\n     Stop worrying.\n\n     Join hands with us in K!15 through Vedic Math. The workshop will throw light upon your pre-eminence and teach you the intricacies of mathematics. You will learn exhilarating new ways to compute problems easier. The elegant techniques of arithmetic that you assimilate here will help you increase your calculation speed, your concentration and memory which are the elementary needs to crack any competitive exam! Be ready to get amazed flipping through age-old Veda techniques.\n\n"
+
+
+                android:textSize="15dp"
+                android:textColor="#000"
+                />
+
+
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+</LinearLayout>

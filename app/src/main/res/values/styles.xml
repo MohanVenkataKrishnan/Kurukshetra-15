@@ -1,0 +1,55 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">#ff353535</item>
+        <item name="colorPrimaryDark">#7CB342</item>
+        <item name="colorAccent">#ff15afd4</item>
+
+    </style>
+
+    <style name="ToolbarCustomIconColor" parent="AppTheme">
+        <!-- android:textColorSecondary is used for coloring the navigation drawer icon and up arrow. -->
+        <item name="android:textColorSecondary">#ffffffff</item>
+    </style>
+
+
+    <style name="menu_labels_style">
+        <item name="android:background">@drawable/fab_label_background</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+
+    <style name="WorkAppTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">#ff2196f3</item>
+        <item name="colorPrimaryDark">#7CB342</item>
+        <item name="colorAccent">#ff2730dc</item>
+
+
+    </style>
+
+
+    <!-- Top Colored -->
+    <style name="card.native.top_colored_layout">
+        <item name="android:minHeight">@dimen/card_topcolored_layout_minHeigth</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:padding">@dimen/card_topcolored_layout_padding</item>
+    </style>
+    <style name="card.native.bottom_colored_layout">
+        <item name="android:minHeight">@dimen/card_topcolored_layout_minHeigth</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/card_topcolored_layout_padding</item>
+    </style>
+
+
+
+
+
+
+
+
+
+
+</resources>

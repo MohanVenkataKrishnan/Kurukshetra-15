@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:layout_margin="5dp">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:scrollbars="none"
+        android:scrollbarSize="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_gravity="center_vertical" >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="5dp">
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="'Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it.'"
+                    android:textStyle="italic"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textColor="#000"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="- Brian Kernighan "
+                    android:textStyle="bold"
+                    android:gravity="right"
+                    android:textSize="15dp"
+                    android:textColor="#000"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="\n\t\tAre you the one who thinks about a run time error when all others around you are worried about Dhoni's run out?\n\n\t\tDoes your loop counter matter more to you than the crowd in a theatre counter?\n\n\t\tHere, we have the right game for you to play!\n\n\t\tBugs are known to rattle coders but can you rattle others by overhauling the bugs in a jiffy?\n\n\t\tShow off your de-infestation skills at K!15.\n\n"
+
+                    android:textSize="15dp"
+                    android:textColor="#000"
+                    />
+
+
+
+
+            </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

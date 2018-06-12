@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    >
+
+
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+
+        >
+        <TextView android:textColor="#111111"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\nOnline Registration\n"
+            android:textSize="20sp"
+
+            />
+        <TextView android:textColor="#111111"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="\t\t1. Carefully go through the instructions for availing accommodation. Register in our website once the registration starts.\n\n\t\t2. After registration, you will receive a mail. Follow the instructions given in that mail."
+
+
+            />
+
+        <TextView android:textColor="#111111"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="\nWhen in Our Campus"
+            android:textSize="20sp"
+
+            />
+        <TextView android:textColor="#111111"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="\n\t\t1. On reaching our campus, report immediately to the Accommodation Desk. \n\n\t\t2. It is mandatory to bring your college identity card and bonafide certificate.\n\n\t\t3. After Accommodation registration and payment of applicable fees, rooms/dormitories will be allotted by the Kurukshetra-2015 Hospitality team."
+
+
+            />
+        <TextView android:textColor="#111111"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="\nDuring Check-out"
+            android:textSize="20sp"
+
+            />
+        <TextView android:textColor="#111111"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="\n\t\tThe participants are required to return all the utilities (provided at the time of check-in) in order to receive their refundable-deposit."
+
+
+            />
+
+        <TextView android:textColor="#111111"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="\nDocuments to be carried"
+            android:textSize="20sp"
+
+            />
+        <TextView android:textColor="#111111"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="\n\t\t You must bring all of the following:.\n\n\t\tPrintout of the confirmation mail (which will be mailed to you once you have completed accommodation procedure) in order to avail accommodation during KURUKSHETRA 2015.\n\n·\t\tCollege Original ID card and Bonafide Certificate.\n\n·\t\tTwo recent passport size photographs.\n\n\t\tFailing to bring any of these documents may result to cancellation of your accommodation."
+
+
+            />
+        <TextView android:textColor="#111111"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#ff060606"
+            android:textSize="20sp"
+
+            android:layout_margin="5dp"
+
+            />
+        <TextView android:textColor="#111111"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="#eceff1"
+            android:textSize="20sp"
+
+            android:layout_margin="5dp"
+
+            />
+
+    </LinearLayout>
+
+</ScrollView>

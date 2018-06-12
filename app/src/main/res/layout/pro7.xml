@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:weightSum="2.5"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/walkingchair"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nTHE MOTIVE:"
+                android:textStyle="bold"
+                android:textColor="#111111"
+                android:layout_margin="5dp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\n\t\tThe vast number of physically disabled people in our Society provided the stimulus to this project. The wheel chair that carries them requires ramps at all places for them to be self-reliant. So how about making them self-reliant by replacing the wheels with a  dedicated linkage? That’s how the idea of Walking Chair was born!
+\n\n\t\tWith the wheel  of usual wheelchair been replaced by  the linkage the chair  will now be able to walk .The linage is designed such that the chair can carry a 15 kg person  and climb a staircase with e steps each of height  15cm."
+                android:textColor="#111111"
+                android:layout_margin="5dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:text="\nADVANTAGES:"
+                android:textColor="#111111"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\n\t1.\t\tIt can step over curbs.
+\n\t2.\t\tIt can climb stairs.
+\n\t3.\t\tIt can be run in rough surfaces.
+\n\t4.\t\tEasy to control."
+
+                android:textColor="#111111"
+                android:layout_margin="5dp"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

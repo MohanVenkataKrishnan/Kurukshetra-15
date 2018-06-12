@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        android:scrollbarSize="0dp">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:padding="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="#000"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="Scoring Criteria:
+\nThe event will be scored as follows:"
+                />
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="*" >
+                <TableRow android:layout_width="fill_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:text="TASK DONE"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:text="SCORE" />
+                </TableRow>
+                <TableRow android:layout_width="fill_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:text="Initial Points"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:text="100" />
+                </TableRow>
+                <TableRow android:layout_width="fill_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:text="For Every 60 seconds"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:text="-5" />
+                </TableRow>
+                <TableRow android:layout_width="fill_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:text=""
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:text="-5" />
+                </TableRow>
+
+            </TableLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="#000"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="General Rules:"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="#000"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="15dp"
+                android:text="\t\tA team may consist of a maximum of 4 members. Students from different educational institutes can form a team. School students are also welcome for this event.
+\n\t\tAll students with a valid identity card of their respective educational institutes are eligible to participate.
+\n\t\tAll participants must have registered to Kurukshetra '15 and should possess their K! ID throughout the event.
+\n\t\tParticipants must only use the camera provided in the arena.
+\n\t\tAny microcontroller can be used. Ready-made kits are strictly not allowed.
+\n\t\tThe communication can be either wired or wireless. Readymade modules like xbee / Bluetooth bee are allowed. USB to microcontroller cables are allowed for communication. And no keys on the laptop can be pressed during the trial.
+\n\t\tCalibration time will be given before the trial.
+\n\t\tAny malpractice will lead to disqualification.
+\n\t\tDamaging the arena will lead to disqualification.
+\n\t\tThe event coordinators reserve the right to make modifications to any of the rules if deemed necessary and their decision in any situation is final and binding on all."
+                />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:weightSum="2.5"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/mineclosure_project"
+
+                />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:text="\nMINE CLOSURE USING REMOTE SENSING AND GIS (SPECIFIC TO AGRICULTURE)"
+                android:textColor="#111111"
+                android:layout_margin="5dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\t\tThe project is about using Remote Sensing and GIS – the two aspects of Geospatial technology to convert mining lands to agriculture lands. The functionalities of a GIS software (ARC GIS), an image processing software( Erdas Imagine) and a DBMS are integrated to provide the mining company with a framework through which they complete a mine closure process and convert their mining land to an agricultural land. The best crop the land can support is identified through making models of different crops and finding the best fit model.
+\n\n\t\tThe advantages of this project are: The cost of mine closure decreases considerably as it provides a targeted framework, it makes mining possible in difficult terrains, it gives land back to agriculture which will soon face a huge deficit of cultivable land, it makes mining environment friendly and reduces the amount of waste land significantly. "
+                android:textColor="#111111"
+                android:layout_margin="5dp"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

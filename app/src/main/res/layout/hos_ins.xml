@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    >
+
+
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+
+        >
+        <TextView
+
+            android:textColor="#111111"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="\n\t\t1.Accommodation services will be provided only for out-station participants.\n\n\t\t2.Accommodation will be provided on a sharing basis. Any requests for individual rooms will not be entertained. However, we will try to accommodate students from the same college together in rooms and dorms.\n\n\t\t3.There are various categories of rooms and dormitories.\n\n\t\t4.Allotment of rooms and dorms are at the discretion of the hospitality team.\n\n\t\t5.Boys will be accommodated in both hotels near Adyar and hostels inside the college campus.\n\n\t\t6.Girls will be accommodated in the Girls-hostel inside the college campus.\n\n\t\t7.Accommodation Charges will be as: \n\n\t\t\t\tRefundable Deposit – Rs.100 (Applicable to all)\n\n\t\t\t\tRoom charges : Rs. 200 per day\n\n\t\t8.Boys who opt for accommodation will not be provided with any transport facility.\n\n\t\t9.Services will be offered on a First-Register-First-Serve basis.\n\n\t\t10.Accommodated students and other participants can have their food at their own expense in canteen and food stalls available at our campus.  Food will not be provided by the Kurukshetra 2015 team.\n\n\t\t11.Mattresses and buckets will be provided.\n\n\t\t12.Participants are encouraged to carry their own blankets since nights might be cold.\n\n\t\t13.Random checks will be made to avoid any illegal stay in the campus. Any participant failing to produce his/her accommodation receipt will be fined and disqualified.\n\n\t\t14.Participants are responsible for their belongings during their stay. Neither the Kurukshetra 2015 hospitality team nor the institute will take responsibility for any loss of property incurred."
+            />
+        <TextView
+            android:textColor="#111111"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#111111"
+            android:textSize="20sp"
+
+            android:layout_margin="5dp"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:textColor="#111111"
+            android:textSize="20sp"
+
+            android:layout_margin="5dp"
+
+            />
+
+    </LinearLayout>
+
+</ScrollView>

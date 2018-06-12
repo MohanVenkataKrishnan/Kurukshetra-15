@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        android:scrollbarSize="0dp">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:padding="5dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="#000"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="15dp"
+                android:text="\t\tDesign an autonomous bot with image processing which is capable of completing this mission."
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="#000"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="\nMission Objectives:"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="#000"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="15dp"
+                android:text="\n●\t\tThe bot is expected to carry out a mission to Mars in search of the lost Dr.Frankenstein.
+\n\n●\t\tThe bot is expected to go in search of water bodies on Mars where the probability of finding the scientist is high.
+\n\n●\t\tIn course of the journey, the bot should surpass the craters on Mars to avoid physical damages.
+\n\n●\t\tFinally the mission gets completed upon finding Dr.Frankenstein.
+\n\n●\t\tMake sure you complete the journey before running out of fuel so that you can get back to Earth or else you may be trapped with Dr.Frankenstein, who might turn into werewolf anytime.\n"
+                />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

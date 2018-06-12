@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:layout_margin="5dp">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:scrollbars="none"
+        android:scrollbarSize="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_gravity="center_vertical" >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="5dp">
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="'Why not invest your assets in the companies you really like? As Mae West said, Too much of a good thing can be wonderful '"
+                    android:textStyle="italic"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textColor="#000"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="- Warren Buffet"
+                    android:textStyle="bold"
+                    android:gravity="right"
+                    android:textSize="15dp"
+                    android:textColor="#000"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="\n\t\tWant a platform to learn the tricks of the trade and to rustle up some profit with your investments? Is your motto 'Buy low, sell high and make a killing ? Ready for a dry run with us to become an adept investor? You are our guy. Dalal bull, the virtual stock market of Kurukshetra gives an opportunity for beginners to analyze virtual market trends, predict virtual market crashes, day-trade, invest wisely and gain immensely. This is not a blood sport; muscles don't matter to ride the bull or the bear. All you need is intellect to make a killing.\n\n\t\tProve your proficiency and supremacy in the trading battle, against aspiring punters across the globe that would span over a period of 15 days!\n"
+                    android:textSize="15dp"
+                    android:textColor="#000"
+                    />
+            </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

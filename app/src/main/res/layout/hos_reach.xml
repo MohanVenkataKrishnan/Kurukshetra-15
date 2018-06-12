@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    >
+
+
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+
+        >
+        <TextView android:textColor="#111111"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\nFrom Chennai Central\n"
+            android:textSize="20sp"
+
+            />
+
+        <TextView android:textColor="#111111"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="By Bus\n"
+            android:textSize="20sp"
+
+            />
+        <TextView android:textColor="#111111"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="\t\t1.Board 19G opposite to the railway station and ask for Anna University/Gandhi Mandapam. This bus is not very frequent.\n\n\t\t2.Board PP21 (during 4 am to 7 am) at the bus stop just outside the railway station and ask for Anna University/Gandhi Mandapam. This frequency of arrival of this bus is very low.\n\n\t\t3.Board 15B, 15G, or 15F at the Central bus stop and reach Broadway Bus Stand. Board 21G (or) 21L from Broadway to Anna University. These buses are very frequent here and it is the most recommended mode of reaching the University from Central Railway station."
+
+
+            />
+
+        <TextView android:textColor="#111111"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="\nBy Train"
+            android:textSize="20sp"
+
+            />
+        <TextView android:textColor="#111111"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="\n\t\t1.There is no direct train to Anna University. You have to reach Guindy and then board a bus to Anna University.\n\n\t\t2.Trains to Guindy depart from the Park Railway Station opposite to the Chennai Central Railway Station.\n\n\t\t3.Step out of the Guindy Railway Station (by taking a right in the crossover meant for pedestrians) and cross the road using subway. Right near the subway you’ll find a lane towards the right side wherein you can find the bus stop. Board M21G, 21G, PP21, M19, M49, 54F, 577 or 549 and get down at Anna University.\n\n\t\t4.You will also find share autos to Anna University near the subway which would cost you Rs. 20.\n\n\t\t5.You can also board the MRTS (Flying train) from the Park Town which is adjacent to the government hospital and alight at Kasturibai Nagar Railway Station where you can get a Share auto or a bus from next to the Madhya Kailash Temple outside the Kasturibai Nagar station to Anna University. (Kindly note PARK is different from PARK TOWN."
+
+
+            />
+        <TextView android:textColor="#111111"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="\nBy Auto/Taxi"
+            android:textSize="20sp"
+
+            />
+        <TextView android:textColor="#111111"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="\n\t\t1.In case you have too much luggage, try Auto or Taxi. You can also avail the facility of prepaid auto service. The fare will be around Rs.150.\n\n\t\t2.State the destination as “Anna University Kotturpuram Gate”.\n"
+
+
+            />
+        <TextView android:textColor="#111111"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#111111"
+            android:textSize="20sp"
+            android:layout_margin="5dp"
+            />
+
+
+        <TextView android:textColor="#111111"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\nFrom Egmore Railway Station\n"
+            android:textSize="20sp"
+
+            />
+        <TextView android:textColor="#111111"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="By Bus"
+            android:textSize="20sp"
+
+            />
+        <TextView android:textColor="#111111"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="\n\t\tIn Egmore, near Pantheon Road and Haals Road junction, you can get 23C and frequency of this bus is high. Travel time will be around 45-50 minutes."
+
+
+            />
+
+        <TextView android:textColor="#111111"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="\nBy Train"
+            android:textSize="20sp"
+
+            />
+        <TextView android:textColor="#111111"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="\n\t\t1.You can take Electric train to Guindy. Step out of the Guindy Railway Station (by taking a right in the crossover meant for pedestrians) and cross the road using the subway.\n\n\t\t2.Right near the subway you’ll find a lane towards the right side wherein you can find the bus stop.\n\n\t\t3.Board M21G, 21G, PP21, M19, M49, 54F, 577 or 549 and get down at Anna University.
+
+    You’ll also find share autos to Anna University near the subway which would cost you Rs.20.
+"
+
+
+            />
+        <TextView android:textColor="#111111"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="\nBy Auto/Taxi"
+            android:textSize="20sp"
+
+            />
+        <TextView android:textColor="#111111"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="\n\t\t1.The auto fare will be approximately Rs 100. Fix the rate before boarding.\n\n\t\tThere is no prepaid auto service at Egmore station.\n"
+
+
+            />
+        <TextView android:textColor="#111111"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#111111"
+            android:textSize="20sp"
+            android:layout_margin="5dp"
+            />
+        <TextView android:textColor="#111111"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\nFrom Koyambedu/CMBT"
+            android:textSize="20sp"
+
+            />
+        <TextView android:textColor="#111111"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="\n\t\tCMBT is Chennai Moffusil Bus Terminus. Lot of buses are available either directly to Anna University or indirectly via T. Nagar or Guindy.\n\n\t\tBoard 23M, PP49, T70 or 149 which are direct to Anna University. These buses are not so frequent.\n\n\t\tBoard bus to T.Nagar (27C, M27) and from there board 5B, 19C, 19B, 47, 47A, 47D to reach Anna University.\n\n\t\tBoard bus to Guindy(M70, M70D, B70, C70, D70, M170C, 170C) and then board M21G, 21G, PP21, M19, M49, 54F, 577, 549 from Guindy to Anna University. Or you can take a share auto to Anna University from Guindy bus stop which would cost you Rs. 20. This is the most recommended mode since these buses are very frequent.\n"
+
+
+            />
+
+        <TextView android:textColor="#111111"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#111111"
+            android:textSize="20sp"
+            android:layout_margin="5dp"
+            />
+        <TextView android:textColor="#111111"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\nFrom Perungalathur"
+            android:textSize="20sp"
+
+            />
+        <TextView android:textColor="#111111"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="\n\t\tFor persons from southern districts of Tamil Nadu, since the buses take the Bypass road to CMBT after 6 am, you cannot get down at the Kathipara junction.\n\n\t\tYou can get down at Perungalathur and board bus 577 or PP21 to Anna University. These buses are not frequent.\n\n\t\tYou may also take a train to Guindy from the Perungalathur junction just behind the bus stop and then board M21G, 21G, PP21, M19, M49, 54F, 577 or 549 from Guindy to Anna University. Or you can take a share auto from Guindy bus stop to Anna University which would cost you Rs. 20.\n"
+
+
+            />
+        <TextView android:textColor="#111111"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#111111"
+            android:textSize="20sp"
+            android:layout_margin="5dp"
+            />
+        <TextView android:textColor="#111111"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\nFrom Kathipara Junction"
+            android:textSize="20sp"
+
+            />
+        <TextView android:textColor="#111111"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="\n\t\tPersons coming from southern districts of Tamil Nadu can get down at Kathipara Junction, if your bus doesn’t take the bypass road before Tambaram.\n\n\t\tBoard 21G, PP21 to Anna University. This is the recommended way.\n\n\t\tBoard any bus to Guindy (next stop) and catch M21G, 21G, PP21, M19, M49, 54F, 577 or 549 to Anna University. Or you can take a share auto to Anna University which would cost you Rs. 20.\n"
+
+
+            />
+        <TextView android:textColor="#111111"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#111111"
+            android:textSize="20sp"
+
+android:layout_margin="5dp"
+
+            />
+        <TextView android:textColor="#111111"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="#111111"
+            android:textSize="20sp"
+
+            android:layout_margin="5dp"
+
+            />
+
+    </LinearLayout>
+
+
+</ScrollView>
+    <com.getbase.floatingactionbutton.FloatingActionButton
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        fab:fab_colorNormal="#ff009688"
+        fab:fab_colorPressed="#ff008b7d"
+        fab:fab_icon="@drawable/maps"
+
+        android:onClick="floatmap"
+        />
+
+
+</RelativeLayout>

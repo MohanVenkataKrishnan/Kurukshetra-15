@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        android:scrollbarSize="0dp">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:padding="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="#000"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="15dp"
+                android:text="\n\t\tThe modern Olympic Games are the leading international sporting event featuring summer and winter sports competitions in which thousands of athletes across the planet participate in a variety of competitions.\n\n\t\tThe Olympic Games are considered to be the world's foremost sports competition with more than 200 nations participating.\n\n\t\tThe International Olympic Committee has chosen Kurukshetra team to conduct the next Olympics. Organize the Olympics in a traditional manner.\n"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

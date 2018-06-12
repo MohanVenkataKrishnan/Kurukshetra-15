@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="in.kurukshetra2015.org.app"
+    android:versionCode="2"
+    android:versionName="1.1">
+
+    <!-- GCM connects to Google Services. -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <!-- GCM requires a Google account. -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD"/>
+
+    <permission android:name="in.kurukshetra2015.org.app.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+    <uses-permission android:name="in.kurukshetra2015.org.app.permission.C2D_MESSAGE" />
+
+    <!-- This app has permission to register and receive data message. -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <application
+
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:name="in.kurukshetra2015.org.app.pushnotify"
+        >
+        <activity
+            android:name="in.kurukshetra2015.org.app.SplashScreen"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name" >
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+        <activity
+            android:name="in.kurukshetra2015.org.app.MainActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name" >
+
+            <intent-filter>
+                <action android:name="in.kurukshetra2015.org.app.MESSAGE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="in.kurukshetra2015.org.app.Workshop"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="in.kurukshetra2015.org.app.MainActivity" />
+
+        </activity>
+        <activity
+            android:name="in.kurukshetra2015.org.app.karnival"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="in.kurukshetra2015.org.app.MainActivity" />
+
+        </activity>
+
+        <activity
+            android:name="in.kurukshetra2015.org.app.WorkshopContent"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/WorkAppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="in.kurukshetra2015.org.app.Workshop" />
+
+        </activity>
+
+
+        <activity
+            android:name="in.kurukshetra2015.org.app.gl"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name"
+            android:theme="@style/WorkAppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="in.kurukshetra2015.org.app.MainActivity" />
+
+        </activity>
+        <activity
+            android:name="in.kurukshetra2015.org.app.pro"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name"
+            android:theme="@style/WorkAppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="in.kurukshetra2015.org.app.MainActivity" />
+
+        </activity>
+
+
+        <activity
+            android:name="in.kurukshetra2015.org.app.tipoftheday"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name"
+            android:theme="@style/WorkAppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="in.kurukshetra2015.org.app.MainActivity" />
+
+        </activity>
+        <activity
+            android:name="in.kurukshetra2015.org.app.hospitality"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name"
+            android:theme="@style/WorkAppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="in.kurukshetra2015.org.app.MainActivity" />
+
+        </activity>
+
+        <activity
+            android:name="in.kurukshetra2015.org.app.subnumber"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name"
+            android:theme="@style/WorkAppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="in.kurukshetra2015.org.app.MainActivity" />
+
+        </activity>
+        <activity
+            android:name="in.kurukshetra2015.org.app.emailsub"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name"
+            android:theme="@style/WorkAppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="in.kurukshetra2015.org.app.MainActivity" />
+
+        </activity>
+        
+
+		<activity
+            android:name="in.kurukshetra2015.org.app.event_begin_trial"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="in.kurukshetra2015.org.app.MainActivity" />
+        </activity>
+        <activity
+            android:name="in.kurukshetra2015.org.app.events_coding_javaclass"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="in.kurukshetra2015.org.app.event_begin_trial" />
+        </activity>
+        <activity
+            android:name="in.kurukshetra2015.org.app.events_coding_content"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="in.kurukshetra2015.org.app.events_coding_javaclass" />
+        </activity>
+        <activity
+            android:name="in.kurukshetra2015.org.app.events_engineering_content"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="in.kurukshetra2015.org.app.events_engineering_javaclass" />
+        </activity>
+        <activity
+            android:name="in.kurukshetra2015.org.app.events_online_content"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="in.kurukshetra2015.org.app.events_online_javaclass" />
+        </activity>
+        <activity
+            android:name="in.kurukshetra2015.org.app.events_management_content"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="in.kurukshetra2015.org.app.events_management_javaclass" />
+        </activity>
+        <activity
+            android:name="in.kurukshetra2015.org.app.events_robotics_content"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="in.kurukshetra2015.org.app.events_robotics_javaclass" />
+        </activity>
+        <activity
+            android:name="in.kurukshetra2015.org.app.events_general_content"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="in.kurukshetra2015.org.app.events_general_javaclass" />
+        </activity>
+        <activity
+            android:name="in.kurukshetra2015.org.app.events_quizzes_content"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="in.kurukshetra2015.org.app.events_quizzes_javaclass" />
+        </activity>
+        <activity
+            android:name="in.kurukshetra2015.org.app.events_engineering_javaclass"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="in.kurukshetra2015.org.app.event_begin_trial" />
+        </activity>
+        <activity
+            android:name="in.kurukshetra2015.org.app.events_online_javaclass"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="in.kurukshetra2015.org.app.event_begin_trial" />
+        </activity>
+        <activity
+            android:name="in.kurukshetra2015.org.app.events_management_javaclass"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="in.kurukshetra2015.org.app.event_begin_trial" />
+        </activity>
+        <activity
+            android:name="in.kurukshetra2015.org.app.events_robotics_javaclass"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="in.kurukshetra2015.org.app.event_begin_trial" />
+        </activity>
+        <activity
+            android:name="in.kurukshetra2015.org.app.events_general_javaclass"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="in.kurukshetra2015.org.app.event_begin_trial" />
+        </activity>
+        <activity
+            android:name="in.kurukshetra2015.org.app.events_quizzes_javaclass"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="in.kurukshetra2015.org.app.event_begin_trial" />
+        </activity>
+        <activity
+            android:name="in.kurukshetra2015.org.app.xceed_begin"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="in.kurukshetra2015.org.app.MainActivity" />
+        </activity>
+        <activity
+            android:name="in.kurukshetra2015.org.app.xceed_kovai_javaclass"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="in.kurukshetra2015.org.app.xceed_begin" />
+        </activity>
+        <activity
+            android:name="in.kurukshetra2015.org.app.xceed_xcode_content"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="in.kurukshetra2015.org.app.xceed_begin" />
+        </activity>
+        <activity
+            android:name="in.kurukshetra2015.org.app.xceed_kozhikode_bizquiz_content"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="in.kurukshetra2015.org.app.xceed_begin" />
+        </activity>
+        <activity
+            android:name="in.kurukshetra2015.org.app.xceed_bizquiz_content"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="in.kurukshetra2015.org.app.xceed_begin" />
+        </activity>
+        <activity
+            android:name="in.kurukshetra2015.org.app.xceed_kovai_content"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name" >
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="in.kurukshetra2015.org.app.xceed_kovai_javaclass" />
+        </activity>
+        <activity
+            android:name="in.kurukshetra2015.org.app.Updates"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="in.kurukshetra2015.org.app.MainActivity" />
+
+        </activity>
+
+        <activity
+            android:screenOrientation="portrait"
+            android:name="in.kurukshetra2015.org.app.AboutDev"
+            android:label="About us"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="in.kurukshetra2015.org.app.MainActivity" />
+
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:name="in.kurukshetra2015.org.app.Sponsers"
+            android:label="@string/app_name"
+            android:theme="@style/WorkAppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="in.kurukshetra2015.org.app.MainActivity" />
+
+        </activity>
+        <activity
+            android:name="in.kurukshetra2015.org.app.ContactActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name"
+            android:theme="@style/WorkAppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="in.kurukshetra2015.org.app.MainActivity" />
+
+        </activity>
+
+        <activity android:name="com.pushbots.push.PBMsg"/>
+        <activity android:name="com.pushbots.push.PBListener"/>
+        <receiver
+            android:name="com.google.android.gcm.GCMBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <!-- Receives the actual messages. -->
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <!-- Receives the registration id. -->
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+                <category android:name="in.kurukshetra2015.org.app" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.pushbots.push.MsgReceiver" />
+        <service android:name="com.pushbots.push.GCMIntentService" />
+        <receiver android:name="in.kurukshetra2015.org.app.opennotify" />
+    </application>
+
+</manifest>

@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_parent_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+    <android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:id="@+id/content_frame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffbdbdbd"/>
+
+        <LinearLayout
+            android:id="@+id/left_drawer"
+            android:layout_width="304dp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="left"
+            android:background="#fff4f4f4"
+            android:orientation="vertical">
+
+           <RelativeLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/navigation_drawer_image"
+                android:layout_width="304dp"
+                android:layout_height="181dp"
+                android:layout_gravity="left|top"
+                android:scaleType="centerCrop"
+                android:src="@drawable/picmenu_main" />
+
+
+
+           </RelativeLayout>
+
+            <ListView
+                android:id="@+id/left_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical"
+                android:background="#fff4f4f4"
+                android:divider="#ff3f51b5"
+                android:dividerHeight="0dp" />
+        </LinearLayout>
+    </android.support.v4.widget.DrawerLayout>
+    <include layout="@layout/toolbar" />
+</RelativeLayout>

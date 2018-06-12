@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:layout_margin="5dp">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:scrollbars="none"
+        android:scrollbarSize="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_gravity="center_vertical" >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="5dp">
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="\tTask\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t-\t\tPoints
+\n\tBall  dropped in destination with \n\tgesture controlled locomotion\t\t\t\t\t-\t\t40 points
+\n\tBall  dropped in destination with \n\twireless controlled locomotio\t\t\t\t\t\t-\t\t30 points
+\n\tBall dropped in destination with \n\tremote controlled locomotion\t\t\t\t\t\t-\t\t20 points
+\n\tBall dropped near goal post\t\t\t\t\t\t\t-\t\t10 points
+\n\tCoding Skills\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t-\t\t10 points
+\n\tAttractive bot design\t\t\t\t\t\t\t\t\t\t\t\t-\t\t30 points
+\n\tAll balls dropped in destination\t\t\t\t\t-\t\t+50 points
+\nViolations:
+\nPenalty
+\n\tBot going outside the arena\t\t\t\t\t\t\t-\t\t-10 points
+\n\tMore than one ball dropped in a zone\t-\t\t-10 points
+\n\tSpeed delay at goal zone\t\t\t\t\t\t\t\t\t-\t\t-10 points
+\n\tStudent pulling the bot by wires \n\tintentionally\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t-\t\t-10 points
+\n\tDamage to arena\t\t\t\t\t\t\t\t\t\t\t\t\t\t-\t\t-10 points
+\n\tWrong scoring in Final round\t\t\t\t\t\t-\t\t-25 points
+\n\tMore than #3 physical touches in a \n\tround\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t+10 seconds
+"
+
+                    android:gravity="left"
+                    android:textSize="15dp"
+                    android:textColor="#000"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="\t\tThe arena track is of height 7cm from the ground level.
+\n\t\tThe goalposts are marked on their sides by parallel cardboards of size 20*20cm, painted black.
+\n\t\tThe balls will be of 3cm in diameter.
+\n\t\tArena also includes some obstacles that the bot has to avoid.
+\n\t\tNo participant must step inside the arena.
+\n\t\tThe goal posts can be placed at any part of the arena.
+\n\t\tThe maximum number of goal posts present in arena is 5.
+\n\t\tThe number of balls will be informed during the event.
+\n\t\tArena will be updated soon.
+\nRounds and Scoring:
+\nRound 1: Blue print
+\n\t\tEach hawker will be examined for its design before its start in the arena. A new, shrewd design will yield brownie points.
+\nRound 2: Terminate everything
+\n\t\tThe bot must detect the goal post and drop ball autonomously. The bot speed must be more in the goal zone in order to avoid negative points. At the end of this round, each goal post must have a ball.
+\nRound 3: Look before you drop
+\n\t\tThe final round is a test for your coding skills. The bot must score only in selected goal zones which is to be decided by the organizers on the day of event"
+                    android:gravity="left"
+                    android:textSize="15dp"
+                    android:textColor="#000"
+                    />
+
+
+            </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

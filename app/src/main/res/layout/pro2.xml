@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:weightSum="2.5"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       >
+<LinearLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/e_glove"
+
+            />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\n\t\tE - glove is an idea evolved from the  safety concerns in our country for women. Many women these days use gloves considering their personal health and hygiene. This project makes those gloves even more useful.
+\n\n\t\tThe gloves are equipped with circuitry providing high voltage shock pulse, thus momentarily causing the offender to suffer an electric shock. On the same side, it is very much safe for the user wearing it.
+\n\n\t\tThe sensors embedded in the glove ensure the shock is transmitted only to others and not the host. The circuitry and sensors are miniaturized, making it appear like normal conventional gloves.
+\n\n\t\tThe project currently aims to work towards fabricating the gloves into a commercial \n"
+
+                android:textColor="#111111"
+                android:layout_margin="5dp"
+                />
+
+</LinearLayout>
+        </ScrollView>
+</LinearLayout>

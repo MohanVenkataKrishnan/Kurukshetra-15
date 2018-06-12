@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        android:scrollbarSize="0dp">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:padding="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="#000"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="Round 1 : Gear Up!"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="#000"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="15dp"
+                android:text="\t\tThe arena has blue circles.
+                \n\n\t\tThe bot has to trace these blue circles and find the way out of the arena (exit point).
+               \n\n\t\tThis serves as a trial for your original mission.
+                \n\n\t\tOn successful completion of the first round, you will proceed to the second round."
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="#000"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="\nRound 2: K!ronicles of MARS"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="#000"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="15dp"
+                android:text="\t\tNow, the bot has landed on Mars.
+                \n\n\t\tIt’s job is to save Dr.Frankenstein (red circle).
+                \n\n\t\tThe bot is expected to follow the water bodies (blue circles) which is surrounded by craters(black circles) on the orange surface(Mars).
+                \n\n\n\t\tThe bot should surpass the craters without moving on top of them and once it reaches a water body, it should have an indicator which glows for a period of 10 seconds, indicating the presence of water.
+                \n\n\t\tAt the same time, the bot should search for a red circle (Dr. Frankenstein) in front of the water body.\n
+                \n\n\t\tThe above procedure repeats till Dr. Frankenstein is found.
+                \n\n\t\tOnce Frankenstein is found, the LED should glow continuously.\n"
+                />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    >
+
+
+
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+
+        >
+        <TextView android:textColor="#111111"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\nHow should I apply for my accommodation in Kurukshetra 2015?\n"
+            android:textSize="20sp"
+
+            />
+        <TextView android:textColor="#111111"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="\t\tInitially you need to fill up the accommodation application form which will be available in our website once the registration starts. We will contact you soon after this for your accommodation and you will be asked to provide some details. By providing all those details you will become eligible for accommodation."
+
+
+            />
+
+        <TextView android:textColor="#111111"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="\nWhat should I do after registering for accommodation?"
+            android:textSize="20sp"
+
+            />
+        <TextView android:textColor="#111111"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="\n\t\tAn automatic mail will be sent to the e-mail id provided and details about the documents that are required to become eligible for accommodation will be explained clearly in the mail."
+
+
+            />
+        <TextView android:textColor="#111111"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="\nWhat documents do I need to ensure my eligibility for my accommodation?"
+            android:textSize="20sp"
+
+            />
+        <TextView android:textColor="#111111"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="\n\t\tThe scanned copy of the train or bus ticket/ERS of your travel or Bonafide certificate with the format specified during Accommodation registration."
+
+
+            />
+
+        <TextView android:textColor="#111111"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="\nDoes my eligibility alone confirm me my accommodation?"
+            android:textSize="20sp"
+
+            />
+        <TextView android:textColor="#111111"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="\n\t\tNo! Though eligibility is a very important criterion for allocation of rooms, it cannot be taken as the confirmation for your accommodation. After receiving all your details, allocation process will be done for eligible applicants and you will be intimated through e-mail if your accommodation is confirmed."
+
+
+            />
+        <TextView android:textColor="#111111"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="\nWhen will I get my accommodation confirmation mail?"
+            android:textSize="20sp"
+
+            />
+        <TextView android:textColor="#111111"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="\n\t\tAfter receiving all accommodation proofs and when the payment is completed, you will get your confirmation mail."
+
+
+            />
+        <TextView android:textColor="#111111"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="\nWhat should I do with my confirmation mail (for accommodation)?"
+            android:textSize="20sp"
+
+            />
+        <TextView android:textColor="#111111"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="\n\t\tYou need to bring the printed copy of the confirmation mail along with all other details and documents mentioned."
+
+
+            />
+        <TextView android:textColor="#111111"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="\nI have a friend staying in the college hostel. Can I stay with him/ her?"
+            android:textSize="20sp"
+
+            />
+        <TextView android:textColor="#111111"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="\n\t\tNo. Staying with acquaintances is strictly prohibited and if found, disciplinary action will be taken against the student of CEG by the college authorities. In addition, the participant will be asked to vacate immediately and alternate accommodation will not be provided. The concerned participant will also be prohibited from participating in any event/workshop/lecture."
+
+
+            />
+        <TextView android:textColor="#111111"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="\nWhere do I stay and what is the procedure?"
+            android:textSize="20sp"
+
+            />
+        <TextView android:textColor="#111111"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="\n\t\tYou must stay only in the allotted room in the appropriate block. Boys and girls will be accommodated separately in an arrangement like that of a dormitory. On producing your K! ID and accommodation receipt, the volunteer in the respective block will guide you to your room. The procedure is given in detail in the Hospitality homepage."
+
+
+            />
+        <TextView android:textColor="#111111"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="\nWhen will I get my accommodation confirmation mail?"
+            android:textSize="20sp"
+
+            />
+        <TextView android:textColor="#111111"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="\n\t\tAfter receiving all accommodation proofs and when the payment is completed, you will get your confirmation mail."
+
+
+            />
+        <TextView android:textColor="#111111"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="\nAre there ATMs inside the campus?"
+            android:textSize="20sp"
+
+            />
+        <TextView android:textColor="#111111"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="\n\t\tThere are SBI, CANARA, and INDIAN bank ATMs available in the campus near the CEG Canteen and a KVB ATM is available inside IT Department."
+
+
+            />
+        <TextView android:textColor="#111111"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="\nWhat is the first thing I should do on entering the campus?"
+            android:textSize="20sp"
+
+            />
+        <TextView android:textColor="#111111"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="\n\t\t All participants should register and collect their K! ID from the registration desk. Out-station participants who have confirmed accommodation should report at the accommodation desk, where required formalities including checking of documents, allotment of rooms, etc. will be completed."
+
+
+            />
+        <TextView android:textColor="#111111"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="\nWhere do I eat?"
+            android:textSize="20sp"
+
+            />
+        <TextView android:textColor="#111111"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="\n\t\tCanteens and food stalls will be open throughout the day, offering different varieties of food. The participants can have their food at their own expense at the canteens and/or food stalls."
+
+
+            />
+        <TextView android:textColor="#111111"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="\nWhat about the security of my belongings?"
+            android:textSize="20sp"
+
+            />
+        <TextView android:textColor="#111111"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="\n\t\tParticipants are responsible for the security of their belongings during their stay. Neither the Kurukshetra 2015 team nor the institute will take responsibility for any loss. Participants are advised to bring their own locks."
+
+
+            />
+        <TextView android:textColor="#111111"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="\nWhere should I go in case of health problems, if any?"
+            android:textSize="20sp"
+
+            />
+        <TextView android:textColor="#111111"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="\n\t\tA health centre is available inside the campus. You can make use of it in case of any medical problem. In case of any illness, you or your team members can contact the volunteers and we shall ensure immediate attention."
+
+
+            />
+        <TextView android:textColor="#111111"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="\nOnce accommodated, can I go out of the university before I vacate?"
+            android:textSize="20sp"
+
+            />
+        <TextView android:textColor="#111111"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="\n\t\tWe don't encourage your outings during the three days. Even if you wish to go, you should return to your respective rooms before 8.30 PM (for girls) and before 9.30 PM (for boys), beyond which hostels will be closed. Defaulters will have to face the Hostel's procedure of fine."
+
+
+            />
+        <TextView android:textColor="#111111"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="\nI still have some questions unanswered, where can I get them answered?"
+            android:textSize="20sp"
+
+            />
+        <TextView android:textColor="#111111"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="\n\t\tMail your questions to hospidesk@kurukshetra.org.in. We will get your questions answered as soon as possible."
+
+
+            />
+        <TextView android:textColor="#111111"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#111111"
+            android:textSize="20sp"
+
+            android:layout_margin="5dp"
+
+            />
+        <TextView android:textColor="#111111"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="#111111"
+            android:textSize="20sp"
+
+            android:layout_margin="5dp"
+
+            />
+
+    </LinearLayout>
+
+</ScrollView>

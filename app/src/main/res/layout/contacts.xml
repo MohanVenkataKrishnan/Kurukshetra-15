@@ -1,0 +1,1779 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/gf"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#aabcbcbc"
+    android:orientation="vertical"
+    tools:context=".ContactsActivity">
+
+    <android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#263238"
+        android:minHeight="?attr/actionBarSize"
+        app:popupTheme="@style/AppTheme"
+        app:theme="@style/ToolbarCustomIconColor"
+
+        />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="5dp">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="2sp"
+                android:layout_marginLeft="3sp"
+                android:layout_marginRight="3sp"
+                android:layout_marginTop="2sp"
+                android:background="#FFF"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#263238"
+                    android:orientation="horizontal"
+                    android:weightSum="100">
+
+                    <FrameLayout
+                        android:id="@+id/Fl1"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/action_bar_height"
+                        android:layout_weight="95"
+                        android:paddingBottom="0dp"
+                        android:paddingLeft="0dp"
+                        android:paddingRight="0dp"
+
+                        android:paddingTop="0dp">
+
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="left|center"
+                            android:text=" Student Relations"
+                            android:textColor="#ffffff"
+                            android:textSize="20sp" />
+
+
+                    </FrameLayout>
+
+                    <com.getbase.floatingactionbutton.FloatingActionButton
+                        android:id="@+id/mail1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="5"
+                        android:gravity="right"
+                        card_view:fab_size="mini"
+                        fab:fab_colorNormal="#FFF"
+                        fab:fab_colorPressed="#eee5de"
+                        fab:fab_icon="@drawable/gmail2" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/LL1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:id="@+id/rl"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5sp"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:id="@+id/linearLayoutrl"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:orientation="horizontal"
+                            android:weightSum="30">
+
+                            <ImageView
+                                android:id="@+id/buttonsuha"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:layout_weight="10"
+
+                                android:src="@drawable/suha1" />
+
+                            <ImageView
+                                android:id="@+id/button3"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:layout_weight="10"
+                                android:gravity="right"
+
+                                android:src="@drawable/pd1" />
+
+                            <ImageView
+                                android:id="@+id/button"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:layout_weight="10"
+
+                                android:src="@drawable/parimal" />
+                        </LinearLayout>
+
+
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linearLayoutorl"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="30">
+
+                        <TextView
+                            android:id="@+id/tv"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="10"
+                            android:gravity="center"
+                            android:text="Suha Vignesh"
+                            android:textColor="#000"
+                            android:textSize="15sp">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/tvv"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="10"
+                            android:gravity="center"
+                            android:text="Priyadharshini"
+                            android:textColor="#000"
+                            android:textSize="15sp">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/tvvv"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="10"
+                            android:gravity="center"
+                            android:text="Parimal"
+                            android:textColor="#000"
+                            android:textSize="15sp">
+
+                        </TextView>
+                    </LinearLayout>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="2sp"
+                android:layout_marginLeft="3sp"
+                android:layout_marginRight="3sp"
+                android:layout_marginTop="2sp"
+                android:background="#FFF"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#263238"
+                    android:orientation="horizontal"
+                    android:weightSum="100">
+
+                    <FrameLayout
+                        android:id="@+id/Fl2"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/action_bar_height"
+                        android:layout_weight="95"
+                        android:paddingBottom="0dp"
+                        android:paddingLeft="0dp"
+                        android:paddingRight="0dp"
+                        android:paddingTop="0dp">
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left|center"
+                            android:gravity="left|center"
+                            android:text=" General Enquiry"
+                            android:textColor="#ffffff"
+                            android:textSize="20sp" />
+
+
+                    </FrameLayout>
+
+                    <com.getbase.floatingactionbutton.FloatingActionButton
+                        android:id="@+id/mail2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_gravity="right"
+                        android:layout_weight="10"
+                        card_view:fab_size="mini"
+                        fab:fab_colorNormal="#FFF"
+                        fab:fab_colorPressed="#eee5de"
+                        fab:fab_icon="@drawable/gmail2" />
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rl2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5sp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:id="@+id/linearLayoutrl2"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal"
+                        android:weightSum="20">
+
+                        <ImageView
+                            android:id="@+id/button22"
+
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_weight="10"
+                            android:gravity="center"
+                            android:src="@drawable/im211" />
+
+                        <ImageView
+                            android:id="@+id/button32"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_weight="10"
+                            android:gravity="right"
+                            android:src="@drawable/im221" />
+                    </LinearLayout>
+
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayoutorl2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="20">
+
+                    <TextView
+                        android:id="@+id/tv2"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="10"
+                        android:gravity="center"
+                        android:text="Hariharan\n"
+                        android:textColor="#000"
+                        android:textSize="15sp">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/tvv2"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="10"
+                        android:gravity="center"
+                        android:text="Venkateshan"
+                        android:textColor="#000"
+                        android:textSize="15sp">
+
+                    </TextView>
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="2sp"
+                android:layout_marginLeft="3sp"
+                android:layout_marginRight="3sp"
+                android:layout_marginTop="2sp"
+                android:background="#FFF"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#263238"
+                    android:orientation="horizontal"
+                    android:weightSum="100">
+
+                    <FrameLayout
+                        android:id="@+id/Fl3"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/action_bar_height"
+                        android:layout_weight="95"
+                        android:paddingBottom="0dp"
+                        android:paddingLeft="0dp"
+                        android:paddingRight="0dp"
+
+                        android:paddingTop="0dp">
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="left|center"
+                            android:text=" Hospitality"
+                            android:textColor="#ffffff"
+                            android:textSize="20sp" />
+
+
+                    </FrameLayout>
+
+                    <com.getbase.floatingactionbutton.FloatingActionButton
+                        android:id="@+id/mail3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_gravity="right"
+                        android:layout_weight="10"
+                        card_view:fab_size="mini"
+                        fab:fab_colorNormal="#FFF"
+                        fab:fab_colorPressed="#eee5de"
+                        fab:fab_icon="@drawable/gmail2" />
+                </LinearLayout>
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#fff">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:orientation="horizontal">
+
+
+                        <LinearLayout
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+
+                            android:layout_marginLeft="25dp"
+							                            android:layout_marginBottom="5dp"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/button31"
+                                android:layout_width="100dp"
+
+                                android:layout_height="100dp"
+                                android:src="@drawable/kathir" />
+
+                            <TextView
+                                android:layout_width="100dp"
+
+                                android:layout_height="20dp"
+                                android:gravity="center"
+                                android:text="Kathiresan"
+                                android:textColor="#000" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+
+                            android:layout_marginLeft="25dp"
+
+                            android:layout_marginBottom="5dp"                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/button322"
+                                android:layout_width="100dp"
+
+                                android:layout_height="100dp"
+                                android:src="@drawable/vinitha1" />
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="20dp"
+                                android:gravity="center"
+                                android:text="Vinitha"
+                                android:textColor="#000" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                                                     android:layout_marginTop="5dp"
+
+                            android:layout_marginLeft="25dp"
+                            android:layout_marginBottom="5dp"                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/button323"
+                                android:layout_width="100dp"
+
+                                android:layout_height="100dp"
+                                android:src="@drawable/divya" />
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="20dp"
+                                android:gravity="center"
+                                android:text="Divya"
+                                android:textColor="#000" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                                                        android:layout_marginTop="5dp"
+
+                            android:layout_marginLeft="25dp"
+                            android:layout_marginBottom="5dp"                            
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/button33"
+                                android:layout_width="100dp"
+
+                                android:layout_height="100dp"
+                                android:src="@drawable/saikumar1" />
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="20dp"
+                                android:gravity="center"
+                                android:text="Sai Kumar\n"
+                                android:textColor="#000" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </HorizontalScrollView>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="2sp"
+                android:layout_marginLeft="3sp"
+                android:layout_marginRight="3sp"
+                android:layout_marginTop="2sp"
+                android:background="#FFF"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#263238"
+                    android:orientation="horizontal"
+                    android:weightSum="100">
+                    >
+
+                    <FrameLayout
+                        android:id="@+id/Fl4"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/action_bar_height"
+                        android:layout_weight="95"
+                        android:paddingBottom="0dp"
+                        android:paddingLeft="0dp"
+                        android:paddingRight="0dp"
+
+                        android:paddingTop="0dp">
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="left|center"
+                            android:text=" Workshops"
+                            android:textColor="#ffffff"
+                            android:textSize="20sp" />
+
+
+                    </FrameLayout>
+
+                    <com.getbase.floatingactionbutton.FloatingActionButton
+                        android:id="@+id/mail4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_gravity="right"
+                        android:layout_weight="10"
+                        card_view:fab_size="mini"
+                        fab:fab_colorNormal="#FFF"
+                        fab:fab_colorPressed="#eee5de"
+                        fab:fab_icon="@drawable/gmail2" />
+                </LinearLayout>
+
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#fff">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+                        <LinearLayout
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"							                            android:layout_marginTop="5dp"
+
+                            android:layout_marginLeft="25dp"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/button41"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                
+                                android:src="@drawable/lakshmi1" />
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="20dp"
+                                android:gravity="center"
+                                android:text="Lakshmi Narayanan"
+                                android:textColor="#000" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"							                            android:layout_marginTop="5dp"
+
+                            android:layout_marginLeft="25dp"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/button42"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                
+                                android:src="@drawable/saipranay1" />
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="20dp"
+                                android:gravity="center"
+                                android:text="Sai Pranay"
+                                android:textColor="#000" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"							                            android:layout_marginTop="5dp"
+
+                            android:layout_marginLeft="25dp"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/button43"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                
+                                android:src="@drawable/kumarappan1" />
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="20dp"
+                                android:gravity="center"
+                                android:text="Kumarapan"
+                                android:textColor="#000" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"							                            android:layout_marginTop="5dp"
+
+                            android:layout_marginLeft="25dp"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/button44"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                
+                                android:src="@drawable/keerthana1" />
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="20dp"
+                                android:gravity="center"
+                                android:text="Keerthana\n"
+                                android:textColor="#000" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </HorizontalScrollView>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="2sp"
+                android:layout_marginLeft="3sp"
+                android:layout_marginRight="3sp"
+                android:layout_marginTop="2sp"
+                android:background="#FFF"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#263238"
+                    android:orientation="horizontal"
+                    android:weightSum="100">
+
+
+                    <FrameLayout
+                        android:id="@+id/Fl5"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/action_bar_height"
+                        android:layout_weight="95"
+                        android:paddingBottom="0dp"
+                        android:paddingLeft="0dp"
+                        android:paddingRight="0dp"
+
+                        android:paddingTop="0dp">
+
+                        <TextView
+
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="left|center"
+                            android:text=" Events"
+                            android:textColor="#ffffff"
+                            android:textSize="20sp" />
+
+
+                    </FrameLayout>
+
+                    <com.getbase.floatingactionbutton.FloatingActionButton
+                        android:id="@+id/mail5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_gravity="right"
+                        android:layout_weight="10"
+                        card_view:fab_size="mini"
+                        fab:fab_colorNormal="#FFF"
+                        fab:fab_colorPressed="#eee5de"
+                        fab:fab_icon="@drawable/gmail2" />
+                </LinearLayout>
+
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#fff">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+                        <LinearLayout
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"							                            android:layout_marginTop="5dp"
+
+                            android:layout_marginLeft="25dp"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/button51"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                
+                                android:src="@drawable/gopinath1" />
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="20dp"
+                                android:gravity="center"
+                                android:text="Gopinath"
+                                android:textColor="#000" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"							                            android:layout_marginTop="5dp"
+
+                            android:layout_marginLeft="25dp"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/button52"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:padding="0dp"
+                                android:src="@drawable/annish1" />
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="20dp"
+                                android:gravity="center"
+                                android:text="Annish"
+                                android:textColor="#000" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"							                            android:layout_marginTop="5dp"
+
+                            android:layout_marginLeft="25dp"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/button53"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:padding="0dp"
+                                android:src="@drawable/sundar1" />
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="20dp"
+                                android:gravity="center"
+                                android:text="Sundar"
+                                android:textColor="#000" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"							                            android:layout_marginTop="5dp"
+
+                            android:layout_marginLeft="25dp"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/button54"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:padding="0dp"
+                                android:src="@drawable/gokul1" />
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="20dp"
+                                android:gravity="center"
+                                android:text="Gokul\n"
+                                android:textColor="#000" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </HorizontalScrollView>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="2sp"
+                android:layout_marginLeft="3sp"
+                android:layout_marginRight="3sp"
+                android:layout_marginTop="2sp"
+                android:background="#FFF"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#263238"
+                    android:orientation="horizontal"
+                    android:weightSum="100">
+
+                    <FrameLayout
+                        android:id="@+id/Fl6"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/action_bar_height"
+                        android:layout_weight="95"
+                        android:paddingBottom="0dp"
+                        android:paddingLeft="0dp"
+                        android:paddingRight="0dp"
+
+                        android:paddingTop="0dp">
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="left|center"
+                            android:text=" Xceed"
+                            android:textColor="#ffffff"
+                            android:textSize="20sp" />
+
+                    </FrameLayout>
+
+                    <com.getbase.floatingactionbutton.FloatingActionButton
+                        android:id="@+id/mail6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_gravity="right"
+                        android:layout_weight="10"
+                        card_view:fab_size="mini"
+                        fab:fab_colorNormal="#FFF"
+                        fab:fab_colorPressed="#eee5de"
+                        fab:fab_icon="@drawable/gmail2" />
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5sp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="10">
+
+                        <ImageView
+                            android:id="@+id/button61"
+                            android:layout_width="100dp"
+
+                            android:layout_height="100dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="10"
+                            android:src="@drawable/jeev1" />
+                    </LinearLayout>
+
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="10"
+                        android:gravity="center"
+                        android:text="Jeevanantham\n"
+                        android:textColor="#000"
+                        android:textSize="15sp">
+
+                    </TextView>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="2sp"
+                android:layout_marginLeft="3sp"
+                android:layout_marginRight="3sp"
+                android:layout_marginTop="2sp"
+                android:background="#FFF"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#263238"
+                    android:orientation="horizontal"
+                    android:weightSum="100">
+
+                    <FrameLayout
+                        android:id="@+id/Fl7"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/action_bar_height"
+                        android:layout_weight="95"
+                        android:paddingBottom="0dp"
+                        android:paddingLeft="0dp"
+                        android:paddingRight="0dp"
+
+                        android:paddingTop="0dp">
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="left|center"
+                            android:text=" K!arnival"
+                            android:textColor="#ffffff"
+                            android:textSize="20sp" />
+
+                    </FrameLayout>
+
+                    <com.getbase.floatingactionbutton.FloatingActionButton
+                        android:id="@+id/mail7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_gravity="right"
+                        android:layout_weight="10"
+                        card_view:fab_size="mini"
+                        fab:fab_colorNormal="#FFF"
+                        fab:fab_colorPressed="#eee5de"
+                        fab:fab_icon="@drawable/gmail2" />
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5sp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="20">
+
+                        <ImageView
+                            android:id="@+id/button71"
+                            android:layout_width="100dp"
+
+                            android:layout_height="100dp"
+                            android:layout_weight="10"
+                            android:gravity="center"
+                            android:src="@drawable/lal1" />
+
+                        <ImageView
+                            android:id="@+id/button72"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_weight="10"
+                            android:gravity="right"
+                            android:src="@drawable/hari1" />
+
+                    </LinearLayout>
+
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="20">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="10"
+                        android:gravity="center"
+                        android:text="Lalitanjali\n"
+                        android:textColor="#000"
+                        android:textSize="15sp">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="10"
+                        android:gravity="center"
+                        android:text="Hari\n"
+                        android:textColor="#000"
+                        android:textSize="15sp">
+
+                    </TextView>
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="2sp"
+                android:layout_marginLeft="3sp"
+                android:layout_marginRight="3sp"
+                android:layout_marginTop="2sp"
+                android:background="#FFF"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#263238"
+                    android:orientation="horizontal"
+                    android:weightSum="100">
+
+                    <FrameLayout
+                        android:id="@+id/Fl8"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/action_bar_height"
+                        android:layout_weight="95"
+                        android:paddingBottom="0dp"
+                        android:paddingLeft="0dp"
+                        android:paddingRight="0dp"
+
+                        android:paddingTop="0dp">
+
+                        <TextView
+
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="left|center"
+                            android:text=" Guest Lectures"
+                            android:textColor="#ffffff"
+                            android:textSize="20sp" />
+
+                    </FrameLayout>
+
+                    <com.getbase.floatingactionbutton.FloatingActionButton
+                        android:id="@+id/mail8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_gravity="right"
+                        android:layout_weight="10"
+                        card_view:fab_size="mini"
+                        fab:fab_colorNormal="#FFF"
+                        fab:fab_colorPressed="#eee5de"
+                        fab:fab_icon="@drawable/gmail2" />
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5sp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="20">
+
+                        <ImageView
+                            android:id="@+id/button81"
+                            android:layout_width="100dp"
+
+                            android:layout_height="100dp"
+                            android:layout_weight="10"
+                            android:gravity="center"
+                            android:src="@drawable/saravan1" />
+
+                        <ImageView
+                            android:id="@+id/button82"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_weight="10"
+                            android:gravity="right"
+                            android:src="@drawable/sripradha1" />
+                    </LinearLayout>
+
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="20">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="10"
+                        android:gravity="center"
+                        android:text="Saravan\n"
+                        android:textColor="#000"
+                        android:textSize="15sp">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="10"
+                        android:gravity="center"
+                        android:text="Sripradha"
+                        android:textColor="#000"
+                        android:textSize="15sp">
+
+                    </TextView>
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="2sp"
+                android:layout_marginLeft="3sp"
+                android:layout_marginRight="3sp"
+                android:layout_marginTop="2sp"
+                android:background="#FFF"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#263238"
+                    android:orientation="horizontal"
+                    android:weightSum="100">
+
+                    <FrameLayout
+                        android:id="@+id/Fl9"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/action_bar_height"
+                        android:layout_weight="95"
+                        android:paddingBottom="0dp"
+                        android:paddingLeft="0dp"
+                        android:paddingRight="0dp"
+
+                        android:paddingTop="0dp">
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="left|center"
+                            android:text=" Industry Relations"
+                            android:textColor="#ffffff"
+                            android:textSize="20sp" />
+
+                    </FrameLayout>
+
+                    <com.getbase.floatingactionbutton.FloatingActionButton
+                        android:id="@+id/mail9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_gravity="right"
+                        android:layout_weight="10"
+                        card_view:fab_size="mini"
+                        fab:fab_colorNormal="#FFF"
+                        fab:fab_colorPressed="#eee5de"
+                        fab:fab_icon="@drawable/gmail2" />
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5sp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="30">
+
+                        <ImageView
+                            android:id="@+id/button91"
+                            android:layout_width="100dp"
+
+                            android:layout_height="100dp"
+                            android:layout_weight="10"
+                            android:gravity="center"
+                            android:src="@drawable/swathi1" />
+
+                        <ImageView
+                            android:id="@+id/button92"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_weight="10"
+                            android:gravity="right"
+                            android:src="@drawable/pooja1" />
+
+                        <ImageView
+                            android:id="@+id/button93"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_weight="10"
+                            android:src="@drawable/suraj1" />
+                    </LinearLayout>
+
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="30">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="10"
+                        android:gravity="center"
+                        android:text="Swati\n"
+                        android:textColor="#000"
+                        android:textSize="15sp">
+
+                    </TextView>
+
+                    <TextView
+
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="10"
+                        android:gravity="center"
+                        android:text="Pooja"
+                        android:textColor="#000"
+                        android:textSize="15sp">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="10"
+                        android:gravity="center"
+                        android:text="Suraj"
+                        android:textColor="#000"
+                        android:textSize="15sp">
+
+                    </TextView>
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="2sp"
+                android:layout_marginLeft="3sp"
+                android:layout_marginRight="3sp"
+                android:layout_marginTop="2sp"
+                android:background="#FFF"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#263238"
+                    android:orientation="horizontal"
+                    android:weightSum="100">
+
+                    <FrameLayout
+                        android:id="@+id/Fl10"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/action_bar_height"
+                        android:layout_weight="95"
+                        android:paddingBottom="0dp"
+                        android:paddingLeft="0dp"
+                        android:paddingRight="0dp"
+
+                        android:paddingTop="0dp">
+
+                        <TextView
+
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="left|center"
+                            android:text=" Media"
+                            android:textColor="#ffffff"
+                            android:textSize="20sp" />
+                    </FrameLayout>
+
+                    <com.getbase.floatingactionbutton.FloatingActionButton
+                        android:id="@+id/mail10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_gravity="right"
+                        android:layout_weight="10"
+                        card_view:fab_size="mini"
+                        fab:fab_colorNormal="#FFF"
+                        fab:fab_colorPressed="#eee5de"
+                        fab:fab_icon="@drawable/gmail2" />
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5sp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="20">
+
+                        <ImageView
+                            android:id="@+id/button111"
+                            android:layout_width="100dp"
+
+                            android:layout_height="100dp"
+                            android:layout_weight="10"
+                            android:gravity="center"
+                            android:src="@drawable/arun1" />
+
+                        <ImageView
+                            android:id="@+id/button112"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_weight="10"
+                            android:gravity="right"
+                            android:src="@drawable/sugan1" />
+                    </LinearLayout>
+
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="20">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="10"
+                        android:gravity="center"
+                        android:text="Arun\n"
+                        android:textColor="#000"
+                        android:textSize="15sp">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="10"
+                        android:gravity="center"
+                        android:text="Suganya"
+                        android:textColor="#000"
+                        android:textSize="15sp">
+
+                    </TextView>
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="2sp"
+                android:layout_marginLeft="3sp"
+                android:layout_marginRight="3sp"
+                android:layout_marginTop="2sp"
+                android:background="#FFF"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#263238"
+                    android:orientation="horizontal"
+                    android:weightSum="100">
+
+                    <FrameLayout
+                        android:id="@+id/Fl11"
+                        android:layout_width="0dp"
+
+                        android:layout_height="@dimen/action_bar_height"
+                        android:layout_weight="95"
+                        android:paddingBottom="0dp"
+                        android:paddingLeft="0dp"
+                        android:paddingRight="0dp"
+                        android:paddingTop="0dp">
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="left|center"
+                            android:text=" Logistics"
+                            android:textColor="#ffffff"
+                            android:textSize="20sp" />
+
+                    </FrameLayout>
+
+                    <com.getbase.floatingactionbutton.FloatingActionButton
+                        android:id="@+id/mail11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_gravity="right"
+                        android:layout_weight="10"
+                        card_view:fab_size="mini"
+                        fab:fab_colorNormal="#FFF"
+                        fab:fab_colorPressed="#eee5de"
+                        fab:fab_icon="@drawable/gmail2" />
+                </LinearLayout>
+
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#fff">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+                        <LinearLayout
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"							                            android:layout_marginTop="5dp"
+
+                            android:layout_marginLeft="25dp"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/button121"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:padding="0dp"
+                                android:src="@drawable/srithar1" />
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="20dp"
+                                android:gravity="center"
+                                android:text="Sritharan"
+                                android:textColor="#000" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"							                            android:layout_marginTop="5dp"
+
+                            android:layout_marginLeft="25dp"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/button122"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:padding="0dp"
+                                android:src="@drawable/srikanth1" />
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="20dp"
+                                android:gravity="center"
+                                android:text="Srikanth"
+                                android:textColor="#000" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"							                            android:layout_marginTop="5dp"
+
+                            android:layout_marginLeft="25dp"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/button123"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:padding="0dp"
+                                android:src="@drawable/surenth1" />
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="20dp"
+                                android:gravity="center"
+                                android:text="Surenth"
+                                android:textColor="#000" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"							                            android:layout_marginTop="5dp"
+
+                            android:layout_marginLeft="25dp"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/button124"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:padding="0dp"
+                                android:src="@drawable/humzaa1" />
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="20dp"
+                                android:gravity="center"
+                                android:text="Humza\n"
+                                android:textColor="#000" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </HorizontalScrollView>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="2sp"
+                android:layout_marginLeft="3sp"
+                android:layout_marginRight="3sp"
+                android:layout_marginTop="2sp"
+                android:background="#FFF"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#263238"
+                    android:orientation="horizontal"
+                    android:weightSum="100">
+
+                    <FrameLayout
+                        android:id="@+id/Fl12"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/action_bar_height"
+                        android:layout_weight="95"
+                        android:paddingBottom="0dp"
+                        android:paddingLeft="0dp"
+                        android:paddingRight="0dp"
+
+                        android:paddingTop="0dp">
+
+                        <TextView
+
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="left|center"
+                            android:text=" Web"
+                            android:textColor="#ffffff"
+                            android:textSize="20sp" />
+
+                    </FrameLayout>
+
+                    <com.getbase.floatingactionbutton.FloatingActionButton
+                        android:id="@+id/mail12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_gravity="right"
+                        android:layout_weight="10"
+                        card_view:fab_size="mini"
+                        fab:fab_colorNormal="#FFF"
+                        fab:fab_colorPressed="#eee5de"
+                        fab:fab_icon="@drawable/gmail2" />
+
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5sp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="20">
+
+                        <ImageView
+                            android:id="@+id/button141"
+                            android:layout_width="100dp"
+
+                            android:layout_height="100dp"
+                            android:layout_weight="10"
+                            android:gravity="center"
+                            android:src="@drawable/prash1" />
+
+                        <ImageView
+                            android:id="@+id/button142"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_weight="10"
+                            android:gravity="right"
+                            android:src="@drawable/naveen1" />
+                    </LinearLayout>
+
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="20">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="10"
+                        android:gravity="center"
+                        android:text="Prashant\n"
+                        android:textColor="#000"
+                        android:textSize="15sp">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="10"
+                        android:gravity="center"
+                        android:text="Naveen Anto"
+                        android:textColor="#000"
+                        android:textSize="15sp">
+
+                    </TextView>
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="2sp"
+                android:layout_marginLeft="3sp"
+                android:layout_marginRight="3sp"
+                android:layout_marginTop="2sp"
+                android:background="#FFF"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#263238"
+                    android:orientation="horizontal"
+                    android:weightSum="100">
+
+                    <FrameLayout
+                        android:id="@+id/Fl13"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/action_bar_height"
+                        android:layout_weight="95"
+
+                        android:paddingBottom="0dp"
+                        android:paddingLeft="0dp"
+                        android:paddingRight="0dp"
+
+                        android:paddingTop="0dp">
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="left|center"
+                            android:text=" Tech"
+                            android:textColor="#ffffff"
+                            android:textSize="20sp" />
+
+                    </FrameLayout>
+
+                    <com.getbase.floatingactionbutton.FloatingActionButton
+                        android:id="@+id/mail13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_gravity="right"
+                        android:layout_weight="10"
+                        card_view:fab_size="mini"
+                        fab:fab_colorNormal="#FFF"
+                        fab:fab_colorPressed="#eee5de"
+                        fab:fab_icon="@drawable/gmail2" />
+
+
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5sp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="20">
+
+                        <ImageView
+                            android:id="@+id/button151"
+                            android:layout_width="100dp"
+
+                            android:layout_height="100dp"
+                            android:layout_weight="10"
+                            android:gravity="center"
+                            android:src="@drawable/jai1" />
+
+                        <ImageView
+                            android:id="@+id/button152"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_weight="10"
+                            android:gravity="right"
+                            android:src="@drawable/dharmesh1" />
+                    </LinearLayout>
+
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="20">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="10"
+                        android:gravity="center"
+                        android:text="Jayavasanth\n"
+                        android:textColor="#000"
+                        android:textSize="15sp">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="10"
+                        android:gravity="center"
+                        android:text="Dharmesh"
+                        android:textColor="#000"
+                        android:textSize="15sp">
+
+                    </TextView>
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

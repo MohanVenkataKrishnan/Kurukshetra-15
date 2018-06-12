@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:layout_margin="5dp">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:scrollbars="none"
+        android:scrollbarSize="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_gravity="center_vertical" >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="5dp">
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:gravity="left"
+                    android:textSize="15dp"
+                    android:textColor="#000"
+                    android:text="Bot Specifications:"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="\n\t\t\t• The initial dimension of the bot should not exceed 60cm x 60cm x 60cm. However there is no limitation on the bot's dimension once the match starts.
+\n\n\t\t\t• The machine should not exceed 40 kg of weight including the weight of the pneumatic source/tank. If the tank is external, its weight considered would be 1.5 times its actual weight. Weight of adaptors and the remote controller will not be counted.
+\n\n\t\t\t• In case of a wireless bot weight will be counted as (0.8 x actual weight).
+\n\n\t\t\t• Any machine component should not be intentionallydetached during any point of the fight."
+
+                    android:gravity="left"
+                    android:textSize="15dp"
+                    android:textColor="#000"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:text="\nPower Specifications:"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="\n\t\t\t• In case of wired bots, the wires should remain slack at any instant during the fight. All the wires coming out of the machine should be stacked as a single unit. Also, the wires should be projected 1000 mm above the ground to avoid entanglement. A minimum of 6 meters wire length is required.
+\n\n\t\t\t• In case of wireless system, it should have a minimum of three frequency remote control circuits or two dual control circuits or a transmitter-receiver paired module so that the frequency interferences with opponent team can be avoided. Remote controls that are readily available in the market may also be used.
+\n\n\t\t\t• Jumping and hopping are not allowed.
+\n\n\t\t\t• Flying (using airfoil, helium balloons, ornithopters, etc.) is not allowed."
+
+                    android:gravity="left"
+                    android:textSize="15dp"
+                    android:textColor="#000"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:text="\nMovement and Controlling mechanisms:"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="\n\t\t\t• In case of wired bots, the wires should remain slack at any instant during the fight. All the wires coming out of the machine should be stacked as a single unit. Also, the wires should be projected 1000 mm above the ground to avoid entanglement. A minimum of 6 meters wire length is required.
+\n\n\t\t\t• In case of wireless system, it should have a minimum of three frequency remote control circuits or two dual control circuits or a transmitter-receiver paired module so that the frequency interferences with opponent team can be avoided. Remote controls that are readily available in the market may also be used.
+\n\n\t\t\t• Jumping and hopping are not allowed.
+\n\n\t\t\t• Flying (using airfoil, helium balloons, ornithopters, etc.) is not allowed.
+"
+                    android:gravity="left"
+                    android:textSize="15dp"
+                    android:textColor="#000"
+                    />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:text="\nWeapons Systems:"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="\n\t\t\t• The bots are allowed to have any kind of weapons such as cutters, flippers, saws, hammers, lifting devices etc.
+\n\n\t\t\t• Participants can use pneumatic and hydraulic weapon systems.
+\n\n\t\t\t• The storage tank and pressure regulators used by the teams need to be certified.
+\n\n\t\t\t• All pneumatic components on the board of the robot must be securely mounted. Particular attention must be given to mount the pressure vessel.
+\n\n\t\t\t• Teams using pneumatics are required to produce the 'Safety' and 'Security' letters at the registration desk. Failing to do so will lead to direct disqualification.
+\n\n\t\t\t• The following weapons are to be strictly avoided - Liquid projectiles, acid based weapons, EMP generators, any kind of flammable liquid, flame-producing weapons, any kind of explosive material, nets, glue or any other entanglement devices, high power magnets or electromagnets and radio jammers."
+
+                    android:gravity="left"
+                    android:textSize="15dp"
+                    android:textColor="#000"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:text="\nArena specifications:"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="\n\n• Arena dimensions:
+\n\t\t\t\tArena may be a hexagonal or a rectangular plane surrounded by small concrete blocks and wire mesh. 5% error could be present in actual track.
+\n• Arena weapon:
+\n\t\t\t\tWeapons such as swinging heavy weights, saw, flippers and wedges may be present which can be used by the players against their opponent.
+\n"
+
+                    android:gravity="left"
+                    android:textSize="15dp"
+                    android:textColor="#000"
+                    />
+            </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:weightSum="2.5"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/pseudoeyes"
+
+                />
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\n\t\tThe main objective of this project is to provide a efficient navigation aid for blind by providing a sense of artificial vision by giving information about the obstacles around the blind person and guiding the user towards the available path .
+\n\n\t\tThe system is intended to make navigation more safe and secure for visually impaired people. This system comprises of ultrasonic sensors and a headphone physically mounted on a waist belt. It detects obstacles around the subject upto 400 cm. It uses speech feedback to notify the subject about the detected obstacles and its distance.
+\n\n\t\tThe main advantage of this system lies in the fact that it can prove to be of very low cost solution and low power consumption to millions of blind people worldwide."
+                android:textColor="#111111"
+                android:layout_margin="5dp"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

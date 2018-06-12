@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:layout_margin="5dp">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:scrollbars="none"
+        android:scrollbarSize="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_gravity="center_vertical" >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="5dp">
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="\t\tDo you like Arnab Goswami? No? Never mind.You sure know who he is.\n\n\t\tDo you at least like Archana Vijaya? You can't say no.\n\n\t\tSudhish Kamath, Cho, Baradwaj Rangan, Nirmala Periasamy.\n\n\t\tThese people are the face of media. You think you want to be one? The stage is set. All you have to do is make it your own.\n\n\t\tIf reporting, interviewing or writing is your forte, this is the place to be during Kurukshetra.\n\n\n\t\tCome and have a swing at it. May the best contestant win!\n\n"
+
+                    android:gravity="left"
+                    android:textSize="15dp"
+                    android:textColor="#000"
+                    />
+
+            </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>
